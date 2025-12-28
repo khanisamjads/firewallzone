@@ -62,6 +62,7 @@
   
   /* Utility for clipping gradient backgrounds to text (cross-browser) */
   .bg-clip-text, .gradient-text {
+    display: inline-block; /* Ensure background clip applies uniformly */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
