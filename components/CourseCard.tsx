@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaClock, FaGraduationCap, FaArrowRight, FaDesktop, FaHome } from 'react-icons/fa';
 import { Course } from '@/lib/types';
 
@@ -37,15 +38,30 @@ export default function CourseCard({ course, index = 0 }: CourseCardProps) {
 
           {/* Image/Icon Area */}
           <div className="relative h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute inset-0" style={{
-                backgroundImage: 'radial-gradient(circle, #3b82f6 1px, transparent 1px)',
-                backgroundSize: '20px 20px'
-              }} />
-            </div>
-            <div className="relative z-10 text-6xl font-bold text-primary/30 group-hover:text-primary/50 transition-colors">
-              {course.category[0]}
-            </div>
+            {/* Render course image if present, otherwise keep previous placeholder */}
+            {course.image ? (
+              <>
+                <Image src={course.image} alt={course.title} fill className="object-cover" />
+                <div className="absolute inset-0 opacity-10">
+                  <div className="absolute inset-0" style={{
+                    backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)',
+                    backgroundSize: '20px 20px'
+                  }} />
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="absolute inset-0 opacity-10">
+                  <div className="absolute inset-0" style={{
+                    backgroundImage: 'radial-gradient(circle, #3b82f6 1px, transparent 1px)',
+                    backgroundSize: '20px 20px'
+                  }} />
+                </div>
+                <div className="relative z-10 text-6xl font-bold text-primary/30 group-hover:text-primary/50 transition-colors">
+                  {course.category[0]}
+                </div>
+              </>
+            )}
           </div>
 
           {/* Content */}
