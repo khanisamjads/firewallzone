@@ -1,0 +1,371 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
+import { FaBars, FaTimes, FaPhone, FaEnvelope, FaChevronDown } from 'react-icons/fa';
+import { instituteInfo } from '@/lib/data/institute';
+
+export default function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const ccnaDropdown = [
+    { name: 'CCNA R&S + Security (Offline)', href: '/courses/ccna-routing-switching' },
+    { name: 'CCNA R&S + Security (Online)', href: '/courses/ccna-routing-switching-online' },
+  ];
+
+  const ccnpDropdown = [
+    { name: 'CCNP Security', href: '/courses/ccnp-security' },
+    { name: 'CCNP Enterprise', href: '/courses/ccnp-enterprise' },
+    { name: 'CCNP R&S', href: '/courses/ccnp-routing-switching-online' },
+  ];
+
+  const securityDropdown = [
+    { name: 'Cyber Security', href: '/courses/cyber-security' },
+    { name: 'Fortinet Firewall', href: '/courses/fortinet-firewall' },
+    { name: 'Palo Alto', href: '/courses/palo-alto' },
+  ];
+
+  const microsoftDropdown = [
+    { name: 'Microsoft Azure', href: '/courses/microsoft-azure' },
+    { name: 'Microsoft 365', href: '/courses/microsoft-365' },
+  ];
+
+  const aiCoursesDropdown = [
+    { name: 'AI SDE (Software Development Engineer)', href: '/courses/ai-sde' },
+    { name: 'Data Analyst with Python & Power BI', href: '/courses/data-analyst-python-powerbi' },
+  ];
+
+  return (
+    <>
+      {/* Top Bar */}
+      <div className="bg-gradient-primary text-white py-2 hidden md:block">
+        <div className="container mx-auto px-4 flex justify-between items-center text-sm">
+          <div className="flex items-center gap-6">
+            <a href="tel:040-23530263" className="flex items-center gap-2 hover:text-gray-200">
+              <FaPhone className="text-xs" />
+              040-23530263
+            </a>
+            <a href={`mailto:${instituteInfo.contact.email}`} className="flex items-center gap-2 hover:text-gray-200">
+              <FaEnvelope className="text-xs" />
+              {instituteInfo.contact.email}
+            </a>
+          </div>
+          <div className="text-xs">
+            {instituteInfo.contact.address}
+          </div>
+        </div>
+      </div>
+
+      {/* Main Navigation */}
+      <motion.nav
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        className={`sticky top-0 z-50 transition-all duration-300 ${
+          isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-card'
+        }`}
+      >
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-20">
+            {/* Logo */}
+            <Link href="/" className="flex items-center gap-3">
+              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                FZ
+              </div>
+              <div>
+                <div className="font-bold text-xl text-foreground">Firewall Zone</div>
+                <div className="text-xs text-gray-400">Institute of IT</div>
+              </div>
+            </Link>
+
+            {/* Desktop Menu */}
+            <div className="hidden lg:flex items-center gap-6">
+              <Link href="/" className="text-foreground hover:text-primary transition-colors font-medium">
+                Home
+              </Link>
+              
+              <Link href="/about" className="text-foreground hover:text-primary transition-colors font-medium">
+                About Us
+              </Link>
+
+              {/* CCNA Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setActiveDropdown('ccna')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
+                  CCNA <FaChevronDown className="text-xs" />
+                </button>
+                <AnimatePresence>
+                  {activeDropdown === 'ccna' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      className="absolute top-full left-0 mt-2 w-72 bg-card border border-border rounded-lg shadow-xl py-2"
+                    >
+                      {ccnaDropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* CCNP Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setActiveDropdown('ccnp')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
+                  CCNP <FaChevronDown className="text-xs" />
+                </button>
+                <AnimatePresence>
+                  {activeDropdown === 'ccnp' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      className="absolute top-full left-0 mt-2 w-64 bg-card border border-border rounded-lg shadow-xl py-2"
+                    >
+                      {ccnpDropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* Security Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setActiveDropdown('security')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
+                  Security <FaChevronDown className="text-xs" />
+                </button>
+                <AnimatePresence>
+                  {activeDropdown === 'security' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      className="absolute top-full left-0 mt-2 w-64 bg-card border border-border rounded-lg shadow-xl py-2"
+                    >
+                      {securityDropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* AI Courses Dropdown with NEW badge */}
+              <div
+                className="relative"
+                onMouseEnter={() => setActiveDropdown('ai')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
+                  <span className="relative">
+                    AI Courses
+                    <span className="absolute -top-3 -right-8 bg-green-500 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold animate-pulse">
+                      NEW
+                    </span>
+                  </span>
+                  <FaChevronDown className="text-xs ml-6" />
+                </button>
+                <AnimatePresence>
+                  {activeDropdown === 'ai' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      className="absolute top-full left-0 mt-2 w-80 bg-card border border-border rounded-lg shadow-xl py-2"
+                    >
+                      {aiCoursesDropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* Microsoft Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setActiveDropdown('microsoft')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
+                  Microsoft <FaChevronDown className="text-xs" />
+                </button>
+                <AnimatePresence>
+                  {activeDropdown === 'microsoft' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 10 }}
+                      className="absolute top-full right-0 mt-2 w-64 bg-card border border-border rounded-lg shadow-xl py-2"
+                    >
+                      {microsoftDropdown.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* Contact Us */}
+              <Link href="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
+                Contact Us
+              </Link>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="lg:hidden text-foreground p-2"
+            >
+              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Menu */}
+        <AnimatePresence>
+          {isOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="lg:hidden bg-card border-t border-border"
+            >
+              <div className="container mx-auto px-4 py-4 space-y-3">
+                <Link href="/" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+                  Home
+                </Link>
+                <Link href="/about" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+                  About Us
+                </Link>
+                <div className="space-y-2">
+                  <div className="font-semibold text-sm text-gray-400">CCNA Courses</div>
+                  {ccnaDropdown.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block py-2 pl-4 text-foreground hover:text-primary"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+                <div className="space-y-2">
+                  <div className="font-semibold text-sm text-gray-400">CCNP Courses</div>
+                  {ccnpDropdown.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block py-2 pl-4 text-foreground hover:text-primary"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+                <div className="space-y-2">
+                  <div className="font-semibold text-sm text-gray-400">Security Courses</div>
+                  {securityDropdown.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block py-2 pl-4 text-foreground hover:text-primary"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+                <div className="space-y-2">
+                  <div className="font-semibold text-sm text-gray-400 flex items-center gap-2">
+                    AI Courses <span className="bg-green-500 text-white text-[10px] px-1.5 py-0.5 rounded-full">NEW</span>
+                  </div>
+                  {aiCoursesDropdown.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block py-2 pl-4 text-foreground hover:text-primary"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+                <div className="space-y-2">
+                  <div className="font-semibold text-sm text-gray-400">Microsoft</div>
+                  {microsoftDropdown.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block py-2 pl-4 text-foreground hover:text-primary"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+                <Link href="/contact" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+                  Contact Us
+                </Link>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.nav>
+    </>
+  );
+}
