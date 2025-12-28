@@ -14,7 +14,8 @@ export default function CourseCard({ course, index = 0 }: CourseCardProps) {
   const badgeColors = {
     'New': 'bg-green-500',
     'Bestseller': 'bg-orange-500',
-    'Popular': 'bg-blue-500'
+    'Popular': 'bg-blue-500',
+    'Trending': 'bg-purple-500'
   };
 
   return (
