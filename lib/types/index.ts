@@ -16,6 +16,10 @@ export interface Course {
   highlights: string[];
   price?: number;
   relatedCourses?: string[];
+  careerOpportunities?: string[];
+  trainingMethodology?: string[];
+  note?: string;
+  whyChoose?: string[];
 }
 
 export interface InstituteInfo {

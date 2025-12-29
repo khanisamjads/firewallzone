@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaArrowRight, FaChevronLeft, FaChevronRight, FaGraduationCap, FaNetworkWired, FaShieldAlt, FaBriefcase, FaServer, FaCertificate } from 'react-icons/fa';
 
 const slides = [
@@ -11,6 +12,7 @@ const slides = [
     title: 'Hands-on Training Labs',
     description: 'Master networking with real Cisco routers, switches, and firewalls in our state-of-the-art labs.',
     bgGradient: 'from-blue-900 to-slate-900',
+    bgImage: '/gallery/firewall-networking-1.jpeg',
     icon: FaServer,
     highlight: '100+ Devices'
   },
@@ -19,6 +21,7 @@ const slides = [
     title: 'Expert Faculty',
     description: 'Learn from Cisco Certified Internetwork Experts (CCIE) with 25+ years of industry experience.',
     bgGradient: 'from-slate-900 to-zinc-900',
+    bgImage: '/gallery/class-1.jpeg',
     icon: FaGraduationCap,
     highlight: 'CCIE Trainers'
   },
@@ -27,6 +30,7 @@ const slides = [
     title: 'Career Transformation',
     description: 'Join 5000+ success stories. We provide 100% placement assistance and interview preparation.',
     bgGradient: 'from-zinc-900 to-neutral-900',
+    bgImage: '/gallery/students-1.jpeg',
     icon: FaBriefcase,
     highlight: '95% Placement'
   },
@@ -35,6 +39,7 @@ const slides = [
     title: 'Global Certifications',
     description: 'Get certified in CCNA, CCNP, Palo Alto, Fortinet, and Azure to boost your career globally.',
     bgGradient: 'from-neutral-900 to-stone-900',
+    bgImage: '/gallery/empowering-1.png',
     icon: FaCertificate,
     highlight: 'Cisco Official'
   },
@@ -43,6 +48,7 @@ const slides = [
     title: 'Flexible Learning',
     description: 'Choose between comprehensive classroom training or interactive online sessions that fit your schedule.',
     bgGradient: 'from-stone-900 to-gray-900',
+    bgImage: '/gallery/best-networking-1.png',
     icon: FaNetworkWired,
     highlight: 'Hybrid Learning'
   },
@@ -80,8 +86,21 @@ export default function Hero() {
             transition={{ duration: 1 }}
             className="absolute inset-0"
           >
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <Image 
+                src={slides[currentSlide].bgImage} 
+                alt={slides[currentSlide].title}
+                fill
+                className="object-cover"
+                priority
+              />
+              {/* Dark Overlay */}
+              <div className="absolute inset-0 bg-black/70" />
+            </div>
+
             {/* Background Gradient & Pattern */}
-            <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgGradient}`}>
+            <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgGradient} opacity-60`}>
               <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] opacity-20" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/50" />
             </div>

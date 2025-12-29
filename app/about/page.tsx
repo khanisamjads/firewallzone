@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaAward, FaUsers, FaLaptopCode, FaChalkboardTeacher, FaCheckCircle, FaRocket, FaChevronLeft, FaChevronRight, FaGraduationCap, FaNetworkWired, FaCertificate } from 'react-icons/fa';
 import { instituteInfo, highlights } from '@/lib/data/institute';
 import EnquiryForm from '@/components/EnquiryForm';
@@ -13,18 +14,21 @@ const slides = [
     title: 'About Firewall Zone',
     description: "India's premier institute for networking and cybersecurity training",
     bgGradient: 'from-blue-900/80 to-purple-900/80',
+    bgImage: '/gallery/empowering-2.png',
   },
   {
     id: 2,
     title: '25+ Years of Excellence',
     description: 'Training professionals since 2000 with industry-leading curriculum',
     bgGradient: 'from-purple-900/80 to-pink-900/80',
+    bgImage: '/gallery/firewall-zone-networking.png',
   },
   {
     id: 3,
     title: '5000+ Success Stories',
     description: 'Join our community of certified networking professionals',
     bgGradient: 'from-cyan-900/80 to-blue-900/80',
+    bgImage: '/gallery/cybersecurity-cert-1.png',
   },
 ];
 
@@ -100,6 +104,19 @@ export default function AboutPage() {
             transition={{ duration: 0.7 }}
             className="absolute inset-0"
           >
+            {/* Background Image */}
+            <div className="absolute inset-0">
+              <Image 
+                src={slides[currentSlide].bgImage} 
+                alt={slides[currentSlide].title}
+                fill
+                className="object-cover"
+                priority
+              />
+              {/* Dark Overlay */}
+              <div className="absolute inset-0 bg-black/60" />
+            </div>
+
             <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgGradient}`}>
               <div className="absolute inset-0 bg-[url('/images/lab-placeholder.jpg')] bg-cover bg-center opacity-30 mix-blend-overlay" />
             </div>

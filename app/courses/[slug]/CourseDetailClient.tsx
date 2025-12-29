@@ -260,6 +260,97 @@ export default function CourseDetailClient({ course, relatedCourses, instituteIn
                 </motion.div>
               )}
 
+              {/* Career Opportunities */}
+              {course.careerOpportunities && course.careerOpportunities.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="space-y-6"
+                >
+                  <h2 className="text-3xl font-bold text-foreground">Career Opportunities</h2>
+                  <div className="bg-card border border-border rounded-xl p-8">
+                    <p className="text-gray-300 mb-6">
+                      Completing this course opens doors to high-demand career paths in the IT and cybersecurity industry.
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      {course.careerOpportunities.map((role, index) => (
+                        <div key={index} className="flex items-center gap-3 bg-primary/5 p-3 rounded-lg">
+                          <div className="w-2 h-2 bg-gradient-primary rounded-full"></div>
+                          <span className="text-gray-300">{role}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Why Choose This Course */}
+              {course.whyChoose && course.whyChoose.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="space-y-6"
+                >
+                  <h2 className="text-3xl font-bold text-foreground">Why Choose This Training?</h2>
+                  <div className="bg-card border border-border rounded-xl p-8">
+                    <div className="space-y-4">
+                      {course.whyChoose.map((reason, index) => (
+                        <div key={index} className="flex items-start gap-3">
+                          <FaCheckCircle className="text-primary mt-1 flex-shrink-0" />
+                          <span className="text-gray-300">{reason}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Training Methodology */}
+              {course.trainingMethodology && course.trainingMethodology.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="space-y-6"
+                >
+                  <h2 className="text-3xl font-bold text-foreground">Training Methodology</h2>
+                  <div className="bg-card border border-border rounded-xl p-8">
+                    <div className="space-y-4">
+                      {course.trainingMethodology.map((method, index) => (
+                        <div key={index} className="flex items-start gap-3">
+                          <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center text-white font-bold flex-shrink-0">
+                            {index + 1}
+                          </div>
+                          <span className="text-gray-300">{method}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Important Note */}
+              {course.note && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="space-y-6"
+                >
+                  <h2 className="text-3xl font-bold text-foreground">Important Information</h2>
+                  <div className="bg-gradient-to-br from-orange-500/10 to-amber-500/10 border border-orange-500/20 rounded-xl p-8">
+                    <div className="flex items-start gap-4">
+                      <div className="text-3xl">ℹ️</div>
+                      <div className="space-y-3 text-gray-300">
+                        <p className="leading-relaxed">{course.note}</p>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+
               {/* Certification */}
               {course.certification && (
                 <motion.div

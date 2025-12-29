@@ -34,6 +34,33 @@ export const courses: Course[] = [
       'Job-Ready Skills',
       'Certification Guidance'
     ],
+    careerOpportunities: [
+      'Network Administrator',
+      'Network Engineer',
+      'Network Support Engineer',
+      'Systems Administrator',
+      'IT Support Specialist',
+      'Network Technician',
+      'Help Desk Technician',
+      'Junior Network Engineer'
+    ],
+    trainingMethodology: [
+      'Hands-on labs with real Cisco routers and switches',
+      'Live classroom training with industry experts',
+      'Real-world network deployment scenarios',
+      'Individual attention and personalized guidance',
+      'Extra lab sessions during course duration',
+      'Industry-standard configuration practices'
+    ],
+    note: 'CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
+    whyChoose: [
+      'High Demand – CCNA-certified professionals with security specialization are in global demand across industries',
+      'Recognized Certifications – Prepare for Cisco CCNA Routing & Switching and CCNA Security exams to validate your dual expertise',
+      'Hands-On Labs – Train on live network and security scenarios',
+      'Career-Focused Curriculum – Build job-ready networking and security skills from day one with role-based learning paths',
+      'Highly qualified and experienced instructors',
+      'Each student will receive industry\'s most complex, in-depth and up-to-date lab scenarios'
+    ],
     relatedCourses: ['2', '3', '4']
   },
   {
@@ -68,6 +95,33 @@ export const courses: Course[] = [
       'Flexible Timings',
       'Recorded Classes'
     ],
+    careerOpportunities: [
+      'Network Administrator',
+      'Network Engineer',
+      'Network Support Engineer',
+      'Systems Administrator',
+      'IT Support Specialist',
+      'Network Technician',
+      'Help Desk Technician',
+      'Junior Network Engineer'
+    ],
+    trainingMethodology: [
+      'Comprehensive online training for overseas students',
+      'Live interactive sessions with virtual labs',
+      'Remote access to real Cisco equipment',
+      'Recorded sessions for review and practice',
+      'Flexible scheduling for working professionals',
+      'One-on-one doubt clearing sessions'
+    ],
+    note: 'Comprehensive Online Training for CCNA R&S + Security: Overseas Students can now access comprehensive ONLINE TRAINING for both CCNA Routing & Switching (R&S) and Security certifications from the comfort of their home countries. Perfect for working professionals and students who need flexible learning schedules.',
+    whyChoose: [
+      'High Demand – CCNA-certified professionals are in global demand',
+      'Recognized Certifications – Prepare for Cisco CCNA exams',
+      'Virtual Hands-On Labs – Remote access to live network scenarios',
+      'Career-Focused Curriculum – Build job-ready skills from day one',
+      'Learn from anywhere with stable internet connection',
+      'Recorded sessions available for revision'
+    ],
     relatedCourses: ['1', '3', '4']
   },
   {
@@ -101,6 +155,33 @@ export const courses: Course[] = [
       'Real Firewall Equipment',
       'Industry-Standard Skills',
       'Career Advancement'
+    ],
+    careerOpportunities: [
+      'Network Security Engineer',
+      'Security Architect',
+      'Firewall Administrator',
+      'VPN Specialist',
+      'Security Consultant',
+      'Network Security Analyst',
+      'Senior Network Engineer',
+      'Infrastructure Security Engineer'
+    ],
+    trainingMethodology: [
+      'Hands-on labs with Cisco ASA, Firepower, and ISE',
+      'Real-world security deployment scenarios',
+      'Expert instruction from CCNP Security certified professionals',
+      'Enterprise-grade security policy configuration',
+      'VPN and secure access control implementation',
+      'Threat mitigation and incident response training'
+    ],
+    note: 'CCNP Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master enterprise-grade network security architecture, threat mitigation, and secure access control using Cisco technologies. Build practical skills in perimeter defense, identity management, and secure network design to become job-ready for high-demand cybersecurity roles.',
+    whyChoose: [
+      'High Demand – CCNP Security-certified professionals are in global demand across industries',
+      'Recognized Certifications – Prepare for Cisco CCNP Security exams to validate your advanced firewall and security expertise',
+      'Hands-On Labs – Train on live network and security scenarios',
+      'Career-Focused Curriculum – Build job-ready security skills from day one with role-based learning paths',
+      'Master next-generation network protection',
+      'Industry-standard Cisco tools and workflows'
     ],
     relatedCourses: ['1', '6', '7']
   },
@@ -203,6 +284,36 @@ export const courses: Course[] = [
       'Multiple Certifications Prep',
       'Job Placement Assistance'
     ],
+    careerOpportunities: [
+      'Cybersecurity Analyst',
+      'Security Operations Center (SOC) Analyst',
+      'Ethical Hacker / Penetration Tester',
+      'Information Security Analyst',
+      'Security Consultant',
+      'Incident Response Analyst',
+      'Vulnerability Assessment Specialist',
+      'SIEM Engineer',
+      'Security Auditor',
+      'Compliance Analyst'
+    ],
+    trainingMethodology: [
+      'Hands-on training with real-world attack simulations',
+      'Dedicated security labs with latest equipment',
+      'Industry-standard tools: Firewalls, SIEM, Endpoint Protection',
+      'Vulnerability assessment and penetration testing',
+      'Network defense and incident response scenarios',
+      'Compliance and risk management training',
+      'Multi-vendor firewall configuration (Cisco, Palo Alto, Fortinet)'
+    ],
+    note: 'Cybersecurity Training in Hyderabad at Firewall Zone Institute of IT is led by certified security professionals and designed to help you master the full cybersecurity lifecycle—from threat detection to incident response. Learn through hands-on labs, real-world attack simulations, and tool-specific modules covering firewalls, SIEM, endpoint protection, vulnerability assessment, and ethical hacking. Build practical skills in network defense, risk management, and compliance to become job-ready for high-demand cybersecurity roles.',
+    whyChoose: [
+      'High Demand – Cybersecurity professionals are in global demand across every sector',
+      'Recognized Certifications – Prepare for CEH, CompTIA Security+, CISSP, and other industry-aligned credentials',
+      'Hands-On Labs – Train in dedicated environments with real-world attack simulations and defense strategies',
+      'Career-Focused Curriculum – Build job-ready cybersecurity skills from day one with threat-centric learning paths',
+      'Comprehensive security training covering all domains',
+      'Learn from certified security professionals with 16+ years experience'
+    ],
     relatedCourses: ['3', '7', '8']
   },
   {
@@ -236,6 +347,33 @@ export const courses: Course[] = [
       'Industry-Leading Technology',
       'High-Demand Skills',
       'Certification Guidance'
+    ],
+    careerOpportunities: [
+      'Palo Alto Firewall Engineer',
+      'Network Security Engineer',
+      'Firewall Administrator',
+      'Security Operations Engineer',
+      'Network Security Consultant',
+      'Security Architect',
+      'SOC Engineer',
+      'Infrastructure Security Specialist'
+    ],
+    trainingMethodology: [
+      'Hands-on training with real Palo Alto firewalls',
+      'Next-generation firewall deployment scenarios',
+      'Security policy configuration and optimization',
+      'Threat prevention and content filtering',
+      'VPN and high availability setup',
+      'Panorama centralized management training'
+    ],
+    note: 'Master next-generation firewall security with Palo Alto Networks Training at Firewall Zone Institute of IT. Learn through hands-on labs, real-world simulations, and certification-focused modules to build advanced firewall skills and become job-ready. Palo Alto appliances are widely adopted in enterprise networks worldwide.',
+    whyChoose: [
+      'High Demand – Palo Alto-certified professionals are in global demand',
+      'Recognized Certifications – PCNSA and PCNSE validate your expertise',
+      'Hands-On Labs – Train with real Palo Alto firewall equipment',
+      'Career-Focused Curriculum – Build job-ready skills from day one',
+      'Industry-leading next-generation firewall technology',
+      'Expert instruction from certified professionals'
     ],
     relatedCourses: ['6', '8', '3']
   },
@@ -271,6 +409,33 @@ export const courses: Course[] = [
       'Certification Prep',
       'Industry Recognition'
     ],
+    careerOpportunities: [
+      'Fortinet Firewall Engineer',
+      'Network Security Engineer',
+      'Firewall Administrator',
+      'Security Engineer',
+      'Network Administrator',
+      'Infrastructure Security Specialist',
+      'SOC Analyst',
+      'Systems Security Engineer'
+    ],
+    trainingMethodology: [
+      'Hands-on training with real FortiGate firewalls',
+      'Enterprise firewall deployment scenarios',
+      'Security policy and profile configuration',
+      'VPN and routing implementation',
+      'High availability and load balancing',
+      'FortiManager and FortiAnalyzer training'
+    ],
+    note: 'Fortinet Firewall Training in Hyderabad at Firewall Zone Institute of IT is led by certified experts and designed to help you master FortiGate deployment, configuration, and security policies. Learn through hands-on labs, real-world simulations, and certification-focused modules to build advanced firewall skills and become job-ready. Fortinet\'s globally recognized NSE (Network Security Expert) certification pathway opens doors to top-tier roles.',
+    whyChoose: [
+      'High Demand – Fortinet-certified professionals are in global demand',
+      'Recognized Certifications – NSE 4, NSE 5, and NSE 7 validate your expertise',
+      'Hands-On Labs – Train with real FortiGate equipment',
+      'Career-Focused Curriculum – Build job-ready skills from day one',
+      'Industry-leading security solutions',
+      'Comprehensive training on FortiGate ecosystem'
+    ],
     relatedCourses: ['6', '7', '3']
   },
   {
@@ -304,6 +469,33 @@ export const courses: Course[] = [
       'In-Demand Technology',
       'Hands-on Azure Portal',
       'Career Growth'
+    ],
+    careerOpportunities: [
+      'Azure Administrator',
+      'Cloud Engineer',
+      'Cloud Architect',
+      'DevOps Engineer',
+      'Cloud Security Engineer',
+      'Infrastructure Engineer',
+      'Solutions Architect',
+      'Cloud Consultant'
+    ],
+    trainingMethodology: [
+      'Hands-on training with Azure Portal',
+      'Live cloud environment deployment',
+      'Virtual machines and networking configuration',
+      'Security and identity management',
+      'Automation and DevOps integration',
+      'Cost optimization and governance'
+    ],
+    note: 'Microsoft Azure Training in Hyderabad at Firewall Zone Institute of IT is led by certified cloud professionals and designed to help you master enterprise-grade cloud architecture, deployment, and automation using Microsoft Azure services. Learn through hands-on labs, real-world cloud scenarios, and tool-specific modules covering Azure Virtual Machines, Storage, Networking, Identity, Security, and DevOps integrations. Build practical skills in cloud provisioning, scalability, and governance to become job-ready for high-demand Azure roles.',
+    whyChoose: [
+      'High Demand – Azure-certified professionals are in global demand across industries',
+      'Recognized Certifications – Prepare for AZ-900, AZ-104, AZ-305, and other Microsoft credentials',
+      'Hands-On Labs – Train in real Azure environments with live deployment and automation projects',
+      'Career-Focused Curriculum – Build job-ready cloud skills from day one with service-based learning paths',
+      'Master enterprise-grade cloud architecture',
+      'Hybrid and multi-cloud adoption expertise'
     ],
     relatedCourses: ['10', '6']
   },
