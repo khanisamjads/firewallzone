@@ -99,10 +99,9 @@ export default function Hero() {
               <div className="absolute inset-0 bg-black/20" />
             </div>
 
-            {/* Background Gradient & Pattern */}
-            <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgGradient} opacity-60`}>
-              <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] opacity-20" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/50" />
+            {/* Background Gradient & Pattern (reduced to let image dominate) */}
+            <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgGradient} opacity-20`}>
+              <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] opacity-10" />
             </div>
             
             {/* Content Container */}
@@ -117,10 +116,10 @@ export default function Hero() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.8 }}
                     >
-                      <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+                      <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-snug mb-4">
                         {slides[currentSlide].title}
                       </h2>
-                      <p className="text-xl md:text-2xl text-gray-300 max-w-2xl leading-relaxed">
+                      <p className="text-lg md:text-xl text-white/80 max-w-2xl leading-relaxed">
                         {slides[currentSlide].description}
                       </p>
                     </motion.div>
@@ -133,14 +132,14 @@ export default function Hero() {
                     >
                       <Link
                         href="/courses"
-                        className="px-8 py-4 bg-primary text-white rounded-full font-bold text-lg hover:bg-primary/90 transition-all flex items-center gap-2 group"
+                        className="px-6 py-3 bg-primary/95 text-white rounded-full font-semibold text-base hover:bg-primary/90 transition-all flex items-center gap-2 group"
                       >
                         Explore Courses
                         <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
                       </Link>
                       <Link
                         href="/contact"
-                        className="px-8 py-4 border border-white/30 hover:bg-white/10 text-white rounded-full font-bold text-lg transition-all"
+                        className="px-6 py-3 border border-white/20 hover:bg-white/5 text-white rounded-full font-semibold text-base transition-all"
                       >
                         Contact Us
                       </Link>
@@ -150,29 +149,29 @@ export default function Hero() {
                   {/* Right Content (Feature Box) - Spans 5 cols */}
                   <div className="lg:col-span-5 hidden lg:flex justify-end">
                     <motion.div
-                      initial={{ opacity: 0, scale: 0.9, x: 50 }}
+                      initial={{ opacity: 0, scale: 0.92, x: 40 }}
                       animate={{ opacity: 1, scale: 1, x: 0 }}
                       transition={{ delay: 0.4, duration: 0.8 }}
                       className="relative"
                     >
-                      {/* Glassmorphism Card */}
-                      <div className="w-80 aspect-square bg-white/5 backdrop-blur-2xl border border-white/10 rounded-3xl p-8 flex flex-col items-center justify-center text-center shadow-2xl relative overflow-hidden group hover:border-primary/50 transition-colors duration-500">
+                      {/* Subdued Glass Card (less visually dominant) */}
+                      <div className="w-72 bg-white/5 backdrop-blur-sm border border-white/6 rounded-2xl p-6 flex flex-col items-center justify-center text-center shadow relative overflow-hidden transition-colors duration-500">
                         
-                        {/* Glowing Background Effect */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                        {/* Subtle Background Effect */}
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-60 transition-opacity duration-500" />
                         
                         <div className="relative z-10">
-                          <div className="w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg rotate-3 group-hover:rotate-6 transition-transform duration-500">
-                            <CurrentIcon className="text-5xl text-white" />
+                          <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-sm transition-transform duration-500">
+                            <CurrentIcon className="text-3xl text-white" />
                           </div>
-                          <div className="text-4xl font-bold text-white mb-2">{slides[currentSlide].highlight}</div>
-                          <div className="text-gray-400 uppercase tracking-wider text-sm font-medium">Key Highlight</div>
+                          <div className="text-2xl font-semibold text-white/90 mb-1">{slides[currentSlide].highlight}</div>
+                          <div className="text-gray-400 uppercase tracking-wider text-xs font-medium">Key Highlight</div>
                         </div>
                       </div>
 
-                      {/* Floating Elements */}
-                      <div className="absolute -top-6 -right-6 w-16 h-16 bg-primary/30 rounded-full blur-xl animate-pulse" />
-                      <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-secondary/30 rounded-full blur-2xl" />
+                      {/* Floating Elements (toned down) */}
+                      <div className="absolute -top-4 -right-4 w-12 h-12 bg-primary/20 rounded-full blur-md" />
+                      <div className="absolute -bottom-6 -left-6 w-20 h-20 bg-secondary/20 rounded-full blur-lg" />
                     </motion.div>
                   </div>
 
