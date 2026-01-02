@@ -114,7 +114,7 @@ export default function AboutPage() {
                 priority
               />
               {/* Dark Overlay */}
-              <div className="absolute inset-0 bg-black/60" />
+              <div className="absolute inset-0 bg-black/20" />
             </div>
 
             <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgGradient}`}>

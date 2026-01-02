@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Globe on top -->
+  <g id="globe">
+    <!-- Globe circle -->
+    <circle cx="200" cy="60" r="35" fill="#FFA500" opacity="0.8"/>
+    <circle cx="200" cy="60" r="35" fill="none" stroke="#FFD700" stroke-width="2"/>
+    
+    <!-- Continents - simplified world map -->
+    <path d="M 170 50 Q 175 45, 180 50 L 185 55 Q 188 53, 190 48 L 195 45 Q 198 47, 195 52 L 190 58 Q 185 60, 180 58 L 175 55 Z" fill="#FFD700"/>
+    <path d="M 205 50 Q 210 48, 215 52 L 220 60 Q 218 65, 213 63 L 208 58 Z" fill="#FFD700"/>
+    <path d="M 185 65 Q 190 68, 195 67 L 200 70 Q 205 72, 210 70 Q 212 68, 210 65 L 205 62 Z" fill="#FFD700"/>
+    
+    <!-- Latitude/longitude lines -->
+    <ellipse cx="200" cy="60" rx="35" ry="15" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="200" cy="60" rx="35" ry="25" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+    <line x1="165" y1="60" x2="235" y2="60" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Firewall brick wall -->
+  <g id="firewall">
+    <!-- Curved wall shape -->
+    <path d="M 50 150 Q 200 100, 350 150 L 350 200 Q 200 250, 50 200 Z" fill="#8B0000" stroke="#4A0000" stroke-width="2"/>
+    
+    <!-- Brick pattern - Row 1 -->
+    <rect x="60" y="155" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="105" y="155" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="150" y="155" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="195" y="155" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="240" y="155" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="285" y="155" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Brick pattern - Row 2 (offset) -->
+    <rect x="80" y="172" width="40" height="15" fill="#FF4444" stroke="#8B0000" stroke-width="1"/>
+    <rect x="125" y="172" width="40" height="15" fill="#FF4444" stroke="#8B0000" stroke-width="1"/>
+    <rect x="170" y="172" width="40" height="15" fill="#FF4444" stroke="#8B0000" stroke-width="1"/>
+    <rect x="215" y="172" width="40" height="15" fill="#FF4444" stroke="#8B0000" stroke-width="1"/>
+    <rect x="260" y="172" width="40" height="15" fill="#FF4444" stroke="#8B0000" stroke-width="1"/>
+    <rect x="305" y="172" width="40" height="15" fill="#FF4444" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Brick pattern - Row 3 -->
+    <rect x="60" y="189" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="105" y="189" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="150" y="189" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="195" y="189" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="240" y="189" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+    <rect x="285" y="189" width="40" height="15" fill="#DC143C" stroke="#8B0000" stroke-width="1"/>
+  </g>
+  
+  <!-- Connected computers below -->
+  <g id="computers">
+    <!-- Computer 1 -->
+    <g transform="translate(40, 230)">
+      <rect x="0" y="15" width="30" height="20" rx="2" fill="#2C3E50" stroke="#1A252F" stroke-width="2"/>
+      <rect x="3" y="18" width="24" height="14" fill="#3498DB"/>
+      <rect x="10" y="35" width="10" height="3" fill="#34495E"/>
+      <ellipse cx="15" cy="40" rx="8" ry="2" fill="#7F8C8D"/>
+      <!-- Network cable -->
+      <line x1="15" y1="15" x2="15" y2="5" stroke="#FFD700" stroke-width="2"/>
+    </g>
+    
+    <!-- Computer 2 -->
+    <g transform="translate(110, 230)">
+      <rect x="0" y="15" width="30" height="20" rx="2" fill="#2C3E50" stroke="#1A252F" stroke-width="2"/>
+      <rect x="3" y="18" width="24" height="14" fill="#E74C3C"/>
+      <rect x="10" y="35" width="10" height="3" fill="#34495E"/>
+      <ellipse cx="15" cy="40" rx="8" ry="2" fill="#7F8C8D"/>
+      <!-- Network cable -->
+      <line x1="15" y1="15" x2="15" y2="5" stroke="#FFD700" stroke-width="2"/>
+    </g>
+    
+    <!-- Computer 3 (center) -->
+    <g transform="translate(185, 230)">
+      <rect x="0" y="15" width="30" height="20" rx="2" fill="#2C3E50" stroke="#1A252F" stroke-width="2"/>
+      <rect x="3" y="18" width="24" height="14" fill="#2ECC71"/>
+      <rect x="10" y="35" width="10" height="3" fill="#34495E"/>
+      <ellipse cx="15" cy="40" rx="8" ry="2" fill="#7F8C8D"/>
+      <!-- Network cable -->
+      <line x1="15" y1="15" x2="15" y2="5" stroke="#FFD700" stroke-width="2"/>
+    </g>
+    
+    <!-- Computer 4 -->
+    <g transform="translate(260, 230)">
+      <rect x="0" y="15" width="30" height="20" rx="2" fill="#2C3E50" stroke="#1A252F" stroke-width="2"/>
+      <rect x="3" y="18" width="24" height="14" fill="#9B59B6"/>
+      <rect x="10" y="35" width="10" height="3" fill="#34495E"/>
+      <ellipse cx="15" cy="40" rx="8" ry="2" fill="#7F8C8D"/>
+      <!-- Network cable -->
+      <line x1="15" y1="15" x2="15" y2="5" stroke="#FFD700" stroke-width="2"/>
+    </g>
+    
+    <!-- Computer 5 -->
+    <g transform="translate(330, 230)">
+      <rect x="0" y="15" width="30" height="20" rx="2" fill="#2C3E50" stroke="#1A252F" stroke-width="2"/>
+      <rect x="3" y="18" width="24" height="14" fill="#F39C12"/>
+      <rect x="10" y="35" width="10" height="3" fill="#34495E"/>
+      <ellipse cx="15" cy="40" rx="8" ry="2" fill="#7F8C8D"/>
+      <!-- Network cable -->
+      <line x1="15" y1="15" x2="15" y2="5" stroke="#FFD700" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Connection lines from globe to firewall -->
+  <line x1="200" y1="95" x2="200" y2="130" stroke="#FFD700" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Data flow indicators -->
+  <circle cx="200" cy="110" r="3" fill="#FFD700">
+    <animate attributeName="cy" values="95;130;95" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="120" r="3" fill="#FFD700" opacity="0.6">
+    <animate attributeName="cy" values="95;130;95" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

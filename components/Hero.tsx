@@ -96,7 +96,7 @@ export default function Hero() {
                 priority
               />
               {/* Dark Overlay */}
-              <div className="absolute inset-0 bg-black/70" />
+              <div className="absolute inset-0 bg-black/20" />
             </div>
 
             {/* Background Gradient & Pattern */}

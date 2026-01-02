@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes, FaPhone, FaEnvelope, FaChevronDown } from 'react-icons/fa';
 import { instituteInfo } from '@/lib/data/institute';
@@ -79,12 +80,20 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                FZ
-              </div>
-              <div>
-                <div className="font-bold text-xl text-foreground">Firewall Zone</div>
-                <div className="text-xs text-gray-400">Institute of IT</div>
+              <div className="relative rounded-md p-1.5 shadow-sm border border-white/5 overflow-hidden" style={{width: 220}}>
+                {/* Left 34% background */}
+                <div className="absolute inset-y-0 left-0 w-[34%] rounded-l-md bg-card" />
+                {/* Right 66% background */}
+                <div className="absolute inset-y-0 right-0 left-[34%] bg-white rounded-r-md" />
+                <div className="relative flex items-center justify-center">
+                  <Image 
+                    src="https://www.firewall-zone.com/wp-content/uploads/2025/09/Firewall-zone.png" 
+                    alt="Firewall Zone" 
+                    width={220} 
+                    height={48}
+                    className="object-contain block"
+                  />
+                </div>
               </div>
             </Link>
 
