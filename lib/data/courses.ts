@@ -535,7 +535,7 @@ export const courses: Course[] = [
     duration: '90 Days',
     level: 'advanced',
     image: '/courses/AI SDE.png',
-    badge: 'New',
+    badge: 'Trending',
     curriculum: [
       'WEEK 1: Software Engineering Fundamentals – Introduction to IT Industry, SDLC, Agile, Scrum, Git, GitHub, VS Code',
       'WEEK 2-3: Web Designing – HTML5 & Semantic Structure, CSS3, Flexbox, Grid, Bootstrap, Responsive Web Design',
@@ -596,7 +596,7 @@ export const courses: Course[] = [
     duration: '60 Days',
     level: 'advanced',
     image: '/courses/DATA Analyst .png',
-    badge: 'Trending',
+    badge: 'New',
     curriculum: [
       'WEEK 1: Basics of Python – Introduction to Python, Variables, Data Types, Input/Output, Conditional & Looping Statements',
       'WEEK 2: Data Structures in Python – Lists, Tuples, Sets, Dictionaries, List Comprehensions, Working with Files',
