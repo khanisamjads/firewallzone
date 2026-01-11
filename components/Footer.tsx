@@ -18,6 +18,12 @@ export default function Footer() {
     { name: 'Fortinet Firewall', href: '/courses/fortinet-firewall' }
   ];
 
+  const aiLinks = [
+    { name: 'AI SDE', href: '/courses/ai-sde' },
+    { name: 'Data Analyst (Python & Power BI)', href: '/courses/data-analyst-python-powerbi' },
+    { name: 'Microsoft Azure', href: '/courses/microsoft-azure' }
+  ];
+
   const quickLinks = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
@@ -107,7 +113,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Security Courses */}
+          {/* Security & AI Courses */}
           <div className="space-y-6">
             <h3 className="text-lg font-bold text-foreground">Security Courses</h3>
             <ul className="space-y-3">
@@ -121,22 +127,19 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href="/courses/microsoft-azure"
-                  className="text-gray-400 hover:text-primary transition-colors text-sm"
-                >
-                  Microsoft Azure
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/courses/devops"
-                  className="text-gray-400 hover:text-primary transition-colors text-sm"
-                >
-                  DevOps
-                </Link>
-              </li>
+            </ul>
+            <h3 className="text-lg font-bold text-foreground pt-4">AI & Cloud Courses</h3>
+            <ul className="space-y-3">
+              {aiLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
