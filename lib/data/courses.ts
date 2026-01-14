@@ -182,7 +182,7 @@ export const courses: Course[] = [
   {
     id: '4',
     slug: 'ccnp-enterprise',
-    title: 'CCNP Enterprise (R&S)',
+    title: 'CCNP Enterprise (R&S) offline',
     shortDescription: 'Master enterprise networking with advanced routing, switching, and network design.',
     description: 'Advanced enterprise networking course covering complex routing and switching scenarios, network design, and enterprise solutions. Perfect for those aiming to become senior network engineers.',
     category: ['CISCO', 'Networking', 'Enterprise'],

@@ -29,12 +29,12 @@ export default function CourseDetailClient({ course, relatedCourses, instituteIn
       'ccnp-security': { classroom: '₹20,000', duration: '45 Days', durationDays: '45 Days' },
       'ccnp-enterprise': { classroom: '₹15,000', duration: '45 Days', durationDays: '45 Days' },
       'ccnp-routing-switching-online': { online: '₹20,000', duration: '45 Days', durationDays: '45 Days' },
-      'cyber-security': { classroom: '₹25,000', online: '₹20,000', duration: '60 Days', durationDays: '60 Days' },
+      'cyber-security': { classroom: '₹20,000', online: '₹25,000', duration: '60 Days', durationDays: '60 Days' },
       'microsoft-azure': { classroom: '₹10,000', duration: '30 Days', durationDays: '30 Days' },
       'ai-sde': { classroom: '₹25,000', online: '₹30,000', duration: '90 Days', durationDays: '90 Days' },
       'data-analyst-python-powerbi': { classroom: '₹15,000', online: '₹20,000', duration: '60 Days', durationDays: '60 Days' },
       'palo-alto': { classroom: '₹15,000', online: '₹15,000', duration: '30 Days', durationDays: '30 Days' },
-      'fortinet-firewall': { classroom: '₹20,000', duration: '2 Weeks', durationDays: '2 Weeks' },
+      'fortinet-firewall': { classroom: '₹15,000', duration: '2 Weeks', durationDays: '2 Weeks' },
     };
     return details[slug];
   };

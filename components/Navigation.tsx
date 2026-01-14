@@ -27,7 +27,7 @@ export default function Navigation() {
 
   const ccnpDropdown = [
     { name: 'CCNP Security', href: '/courses/ccnp-security' },
-    { name: 'CCNP Enterprise (R&S)', href: '/courses/ccnp-enterprise' },
+    { name: 'CCNP Enterprise (R&S) offline', href: '/courses/ccnp-enterprise' },
     { name: 'CCNP Enterprise (R&S) online', href: '/courses/ccnp-routing-switching-online' }
   ];
 
