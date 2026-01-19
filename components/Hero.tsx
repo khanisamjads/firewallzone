@@ -119,9 +119,6 @@ export default function Hero() {
                       <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-snug mb-4 drop-shadow-lg">
                         {slides[currentSlide].title}
                       </h2>
-                      <p className="text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed drop-shadow-md">
-                        {slides[currentSlide].description}
-                      </p>
                     </motion.div>
 
                     <motion.div
