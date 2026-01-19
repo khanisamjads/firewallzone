@@ -10,16 +10,16 @@ const slides = [
   {
     id: 1,
     title: 'Hands-on Training Labs',
-    description: 'Master networking with real Cisco routers, switches, and firewalls in our state-of-the-art labs.',
+    // description: 'Master networking with real Cisco routers, switches, and firewalls in our state-of-the-art labs.',
     bgGradient: 'from-blue-900 to-slate-900',
-    bgImage: '/gallery/60756768255.png',
+    bgImage: '/gallery/Slide 1.jpg',
     icon: FaServer,
     highlight: '100+ Devices'
   },
   {
     id: 2,
     title: 'Expert Faculty',
-    description: 'Learn from Cisco Certified Internetwork Experts (CCIE) with 25+ years of industry experience.',
+    // description: 'Learn from Cisco Certified Internetwork Experts (CCIE) with 25+ years of industry experience.',
     bgGradient: 'from-slate-900 to-zinc-900',
     bgImage: '/gallery/networking-software-1.png',
     icon: FaGraduationCap,
@@ -28,7 +28,7 @@ const slides = [
   {
     id: 3,
     title: 'Career Transformation',
-    description: 'Join 5000+ success stories. We provide 100% placement assistance and interview preparation.',
+    // description: 'Join 5000+ success stories. We provide 100% placement assistance and interview preparation.',
     bgGradient: 'from-zinc-900 to-neutral-900',
     bgImage: '/gallery/Firewall-Institute-OF-IT-Students-1.png',
     icon: FaBriefcase,
@@ -37,7 +37,7 @@ const slides = [
   {
     id: 4,
     title: 'Global Certifications',
-    description: 'Get certified in CCNA, CCNP, Palo Alto, Fortinet, and Azure to boost your career globally.',
+    // description: 'Get certified in CCNA, CCNP, Palo Alto, Fortinet, and Azure to boost your career globally.',
     bgGradient: 'from-neutral-900 to-stone-900',
     bgImage: '/gallery/Empowering-Future-Network-Professionals-1.png',
     icon: FaCertificate,
@@ -46,7 +46,7 @@ const slides = [
   {
     id: 5,
     title: 'Flexible Learning',
-    description: 'Choose between comprehensive classroom training or interactive online sessions that fit your schedule.',
+    // description: 'Choose between comprehensive classroom training or interactive online sessions that fit your schedule.',
     bgGradient: 'from-stone-900 to-gray-900',
     bgImage: '/gallery/Firewall-Zone-Institute-of-IT-Networking-Courses-Hyderabad.png',
     icon: FaNetworkWired,
@@ -105,7 +105,7 @@ export default function Hero() {
             </div>
             
             {/* Content Container */}
-            <div className="relative z-10 h-full flex items-center">
+            <div className="relative z-10 h-full flex items-end pb-24">
               <div className="container mx-auto px-4">
                 <div className="grid lg:grid-cols-12 gap-12 items-center">
                   
@@ -139,7 +139,7 @@ export default function Hero() {
                       </Link>
                       <Link
                         href="/contact"
-                        className="px-6 py-3 border border-white/20 hover:bg-white/5 text-white rounded-full font-semibold text-base transition-all"
+                        className="px-6 py-3 bg-primary/95 text-white rounded-full font-semibold text-base hover:bg-primary/90 transition-all flex items-center gap-2 group"
                       >
                         Contact Us
                       </Link>
