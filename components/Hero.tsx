@@ -21,7 +21,7 @@ const slides = [
     title: 'Expert Faculty',
     // description: 'Learn from Cisco Certified Internetwork Experts (CCIE) with 25+ years of industry experience.',
     bgGradient: 'from-slate-900 to-zinc-900',
-    bgImage: '/gallery/networking-software-1.png',
+    bgImage: '/gallery/Slide 31.jpg',
     icon: FaGraduationCap,
     highlight: 'CCIE Trainers'
   },
@@ -30,7 +30,7 @@ const slides = [
     title: 'Career Transformation',
     // description: 'Join 5000+ success stories. We provide 100% placement assistance and interview preparation.',
     bgGradient: 'from-zinc-900 to-neutral-900',
-    bgImage: '/gallery/Firewall-Institute-OF-IT-Students-1.png',
+    bgImage: '/gallery/Slide 2.jpg',
     icon: FaBriefcase,
     highlight: '95% Placement'
   },
@@ -39,7 +39,7 @@ const slides = [
     title: 'Global Certifications',
     // description: 'Get certified in CCNA, CCNP, Palo Alto, Fortinet, and Azure to boost your career globally.',
     bgGradient: 'from-neutral-900 to-stone-900',
-    bgImage: '/gallery/Empowering-Future-Network-Professionals-1.png',
+    bgImage: '/gallery/Slide 5.jpg',
     icon: FaCertificate,
     highlight: 'Cisco Official'
   },
@@ -48,7 +48,7 @@ const slides = [
     title: 'Flexible Learning',
     // description: 'Choose between comprehensive classroom training or interactive online sessions that fit your schedule.',
     bgGradient: 'from-stone-900 to-gray-900',
-    bgImage: '/gallery/Firewall-Zone-Institute-of-IT-Networking-Courses-Hyderabad.png',
+    bgImage: '/gallery/Slide 4.jpg',
     icon: FaNetworkWired,
     highlight: 'Hybrid Learning'
   },
