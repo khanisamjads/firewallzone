@@ -34,7 +34,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-card border-t border-border">
+    <footer className="bg-card border-t border-border text-gray-300">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -98,7 +98,7 @@ export default function Footer() {
 
           {/* CISCO Courses */}
           <div className="space-y-6">
-            <h3 className="text-lg font-bold text-foreground">CISCO Courses</h3>
+            <h3 className="text-lg font-bold text-white">CISCO Courses</h3>
             <ul className="space-y-3">
               {ciscoLinks.map((link) => (
                 <li key={link.href}>
@@ -121,7 +121,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    className="text-gray-300 hover:text-primary transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
