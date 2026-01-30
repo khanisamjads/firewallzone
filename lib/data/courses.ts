@@ -189,7 +189,7 @@ export const courses: Course[] = [
     mode: ['offline'],
     duration: '45 Days',
     level: 'advanced',
-    image: '/courses/ccnp-rs.png',
+    image: '/courses/CCNP-Enterprise-R-S-offline.png',
     curriculum: [
       'Advanced Routing (OSPF, EIGRP, BGP)',
       'Enterprise Switching',
