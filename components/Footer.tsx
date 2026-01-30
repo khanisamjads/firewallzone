@@ -98,7 +98,7 @@ export default function Footer() {
 
           {/* CISCO Courses */}
           <div className="space-y-6">
-            <h3 className="text-lg font-bold text-white">CISCO Courses</h3>
+            <h3 className="text-lg font-bold text-black">CISCO Courses</h3>
             <ul className="space-y-3">
               {ciscoLinks.map((link) => (
                 <li key={link.href}>
