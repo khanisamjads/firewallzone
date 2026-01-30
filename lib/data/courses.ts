@@ -70,7 +70,7 @@ export const courses: Course[] = [
     mode: ['online'],
     duration: '30 Days',
     level: 'beginner',
-    image: '/courses/CCNA-Routing-Switching-Training-in-Hyderabad.png',
+    image: '/courses/ccna-routing-switching-classes-online.png',
     badge: 'Popular',
     curriculum: [
       'Network Fundamentals',
@@ -222,7 +222,7 @@ export const courses: Course[] = [
     mode: ['online'],
     duration: '45 Days',
     level: 'advanced',
-    image: '/courses/CCNP-Enterprise-R-S-offline.png',
+    image: '/courses/cisco-ccnp-enterprise.png',
     curriculum: [
       'Advanced Routing Protocols',
       'Enterprise Switching',
