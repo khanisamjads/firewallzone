@@ -70,7 +70,7 @@ export const courses: Course[] = [
     mode: ['online'],
     duration: '30 Days',
     level: 'beginner',
-    image: '/courses/Cisco-CCNA-200-301-Security-Online-Training.png',
+    image: '/courses/CCNA-Routing-Switching-Training-in-Hyderabad.png',
     badge: 'Popular',
     curriculum: [
       'Network Fundamentals',
