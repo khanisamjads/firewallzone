@@ -184,7 +184,7 @@ export const courses: Course[] = [
     slug: 'ccnp-enterprise',
     title: 'CCNP Enterprise (R&S) offline',
     shortDescription: 'Master enterprise networking with advanced routing, switching, and network design.',
-    description: 'Advanced enterprise networking course covering complex routing and switching scenarios, network design, and enterprise solutions. Perfect for those aiming to become senior network engineers.',
+    description: 'CCNP Enterprise (Routing & Switching) Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master enterprise-grade network design, implementation, and optimization. Learn through hands-on labs, real-world configuration scenarios, and tool-specific modules covering OSPF, EIGRP, BGP, VLANs, STP, EtherChannel, and WAN technologies. Build practical skills in Layer 2 and Layer 3 protocols, network automation, and infrastructure troubleshooting to become job-ready for high-demand networking roles.',
     category: ['CISCO', 'Networking', 'Enterprise'],
     mode: ['offline'],
     duration: '45 Days',
