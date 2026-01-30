@@ -11,7 +11,7 @@ export const courses: Course[] = [
     mode: ['offline'],
     duration: '30 Days',
     level: 'beginner',
-    image: '/courses/ccna.png',
+    image: '/courses/CCNA-Routing-Switching-Training-in-Hyderabad.png',
     badge: 'Popular',
     curriculum: [
       'Network Fundamentals',
