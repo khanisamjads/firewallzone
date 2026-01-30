@@ -51,7 +51,7 @@ export const courses: Course[] = [
     ],
     note: 'CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
     whyChoose: [
-      'High Demand – CCNA-certified professionals with security specialization are in global demand across industries',
+      'High Demand – CCNA-certified professionals with security Specialization are in global demand across industries',
       'Recognized Certifications – Prepare for Cisco CCNA Routing & Switching and CCNA Security exams to validate your dual expertise',
       'Hands-On Labs – Train on live network and security scenarios',
       'Career-Focused Curriculum – Build job-ready networking and security skills from day one with role-based learning paths',
