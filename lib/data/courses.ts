@@ -6,12 +6,12 @@ export const courses: Course[] = [
     slug: 'ccna-routing-switching',
     title: 'CCNA R&S + Security - OFFLINE',
     shortDescription: 'Master networking fundamentals with Cisco CCNA Routing & Switching plus Security certification.',
-    description: 'CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Learn through hands-on labs, real-world deployment scenarios, and tool-specific modules covering IP addressing, routing protocols, VLANs, ACLs, VPNs, and Cisco IOS security features. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
+    description: 'Comprehensive CCNA Routing & Switching with Security training that covers network fundamentals, routing protocols, switching technologies, and network security. Get hands-on experience with real Cisco equipment in our state-of-the-art labs.',
     category: ['CISCO', 'Networking', 'Security'],
     mode: ['offline'],
     duration: '30 Days',
     level: 'beginner',
-    image: '/courses/CCNA-Routing-Switching-Training-in-Hyderabad.png',
+    image: '/courses/ccna.png',
     badge: 'Popular',
     curriculum: [
       'Network Fundamentals',
@@ -51,7 +51,7 @@ export const courses: Course[] = [
     ],
     note: 'CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
     whyChoose: [
-      'High Demand – CCNA-certified professionals with security Specialization are in global demand across industries',
+      'High Demand – CCNA-certified professionals with security specialization are in global demand across industries',
       'Recognized Certifications – Prepare for Cisco CCNA Routing & Switching and CCNA Security exams to validate your dual expertise',
       'Hands-On Labs – Train on live network and security scenarios',
       'Career-Focused Curriculum – Build job-ready networking and security skills from day one with role-based learning paths',
@@ -65,12 +65,12 @@ export const courses: Course[] = [
     slug: 'ccna-routing-switching-online',
     title: 'CCNA R&S + Security - ONLINE',
     shortDescription: 'Learn CCNA Routing & Switching with Security from anywhere with our comprehensive online training.',
-    description: 'Cisco CCNA (Routing & Switching) + Security Online Training at Firewall Zone Institute of IT. Get to know the fundamentals of network and advanced concepts through practical examples and simulations to develop your skills. The CISCO CCNA Routing and Switching curriculum is a gateway to networking jobs that do not require IT experience and occupations. Introduction to Networks, Routing and Switching Essentials, Scaling Networks, and Connecting Networks. The CISCO CCNA Routing and Switching curriculum is a gateway to networking jobs that do not require IT experience and occupations. Introduction to Networks, Routing and Switching Essentials, Scaling Networks, and Connecting Networks. The first 2 courses prepare you for the Cisco Certification Exam or to study CCNA Course. It is recommended to do all four courses before taking the Cisco CCNA Routing and Switching Certification exam.',
+    description: 'Complete CCNA training delivered online with live sessions, virtual labs, and remote access to real equipment. Perfect for working professionals and students who need flexible learning schedules.',
     category: ['CISCO', 'Networking', 'Security'],
     mode: ['online'],
     duration: '30 Days',
     level: 'beginner',
-    image: '/courses/ccna-routing-switching-classes-online.png',
+    image: '/courses/ccna.png',
     badge: 'Popular',
     curriculum: [
       'Network Fundamentals',
@@ -184,12 +184,12 @@ export const courses: Course[] = [
     slug: 'ccnp-enterprise',
     title: 'CCNP Enterprise (R&S) offline',
     shortDescription: 'Master enterprise networking with advanced routing, switching, and network design.',
-    description: 'CCNP Enterprise (Routing & Switching) Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master enterprise-grade network design, implementation, and optimization. Learn through hands-on labs, real-world configuration scenarios, and tool-specific modules covering OSPF, EIGRP, BGP, VLANs, STP, EtherChannel, and WAN technologies. Build practical skills in Layer 2 and Layer 3 protocols, network automation, and infrastructure troubleshooting to become job-ready for high-demand networking roles.',
+    description: 'Advanced enterprise networking course covering complex routing and switching scenarios, network design, and enterprise solutions. Perfect for those aiming to become senior network engineers.',
     category: ['CISCO', 'Networking', 'Enterprise'],
     mode: ['offline'],
     duration: '45 Days',
     level: 'advanced',
-    image: '/courses/CCNP-Enterprise-R-S-offline.png',
+    image: '/courses/ccnp-rs.png',
     curriculum: [
       'Advanced Routing (OSPF, EIGRP, BGP)',
       'Enterprise Switching',
@@ -217,12 +217,12 @@ export const courses: Course[] = [
     slug: 'ccnp-routing-switching-online',
     title: 'CCNP Enterprise (R&S) online',
     shortDescription: 'Complete CCNP Routing & Switching training delivered online with virtual labs.',
-    description: 'Certification Cisco CCNP Routing & Switching (R&S) Online: Firewall Zone offer Best CCNP Training In Hyderabad for Cisco Certified Network Professional (CCNP) which is an advanced Cisco CCNP Training Course that covers issues such as installation, configuration, and operation of local and extended area networks. This training focuses on developing the skills necessary for the student to deploy scalable networks, build networks that bring together a campus, design and install global Intranets, and work on troubleshooting. A recommendation for the CCNP Training Course is that the student completes the CCNP Training first, because the contents learned in this training are necessary for a better understanding of the CCNP. The CCNP Route and Switching – Implementing Cisco IP Routing course prepares the participant to manage medium and large businesses by applying complex and scalable Routing solutions. The goal is to train a professional who can manage Lan – Man networks made up of a large number of routers. This intervention prepares for the CCNP Route Exam, part of the CCNP Routing and Switching certification.',
+    description: 'Comprehensive online CCNP training with virtual lab access and live instruction. Learn advanced routing and switching concepts from the comfort of your home.',
     category: ['CISCO', 'Networking', 'Online'],
     mode: ['online'],
     duration: '45 Days',
     level: 'advanced',
-    image: '/courses/cisco-ccnp-enterprise.png',
+    image: '/courses/ccnp-rs.png',
     curriculum: [
       'Advanced Routing Protocols',
       'Enterprise Switching',
@@ -679,4 +679,3 @@ export const getCoursesByCategory = (category: string): Course[] => {
 export const getFeaturedCourses = (): Course[] => {
   return courses.filter(course => course.badge);
 };
-
