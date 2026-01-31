@@ -247,7 +247,7 @@ export const courses: Course[] = [
     id: '6',
     slug: 'cyber-security',
     title: 'Cyber Security - Complete Course Package',
-    shortDescription: 'Comprehensive 10-course cyber security program covering ethical hacking, network defense, and threat mitigation.',
+    shortDescription: 'Get Comprehensive 10-course cyber security program covering ethical hacking, network defense, and threat mitigation.',
     description: 'Advance your career in cybersecurity with our expert-led training. This comprehensive 10-course package covers ethical hacking, network defense, and real-world threat mitigation—designed to get you certified and job-ready in today\'s digital landscape.',
     category: ['Security', 'Cyber Security', 'Ethical Hacking'],
     mode: ['offline', 'online'],
