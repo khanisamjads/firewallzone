@@ -20,7 +20,7 @@ const slides = [
     title: 'Expert Faculty',
     bgGradient: 'from-slate-900 to-zinc-900',
     bgImage: '/gallery/Slide 31.jpg',
-    icon: FaGraduation-Cap,
+    icon: FaGraduationCap,
     highlight: 'CCIE Trainers'
   },
   {
