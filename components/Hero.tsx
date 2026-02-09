@@ -47,6 +47,22 @@ const slides = [
     icon: FaNetworkWired,
     highlight: 'Hybrid Learning'
   },
+  {
+    id: 6,
+    title: 'Real Time Devices',
+    bgGradient: 'from-stone-900 to-gray-900',
+    bgImage: '/gallery/Networking-courses-certificatioins-hyderabad.png',
+    icon: FaNetworkWired,
+    highlight: 'Hybrid Learning'
+  },
+  {
+    id: 7,
+    title: 'Real Time Devices',
+    bgGradient: 'from-stone-900 to-gray-900',
+    bgImage: '/gallery/real-time-devices-fz.png',
+    icon: FaNetworkWired,
+    highlight: 'Hybrid Learning'
+  },
 ];
 
 export default function Hero() {
