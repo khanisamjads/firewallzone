@@ -36,7 +36,7 @@ const slides = [
     title: 'Global Certifications',
     bgGradient: 'from-neutral-900 to-stone-900',
     bgImage: '/gallery/Slide 5.jpg',
-    icon: Fa-Certificate,
+    icon: FaCertificate,
     highlight: 'Cisco Official'
   },
   {
