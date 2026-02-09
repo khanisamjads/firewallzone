@@ -11,7 +11,7 @@ const slides = [
     id: 1,
     title: 'Hands-on Training Labs',
     bgGradient: 'from-blue-900 to-slate-900',
-    bgImage: '/gallery/students-certificate.png',
+    bgImage: '/gallery/Slide 1.jpg',
     icon: FaServer,
     highlight: '100+ Devices'
   },
@@ -27,7 +27,7 @@ const slides = [
     id: 3,
     title: 'Career Transformation',
     bgGradient: 'from-zinc-900 to-neutral-900',
-    bgImage: '/gallery/students-certificate-firewall.png',
+    bgImage: '/gallery/Slide 2.jpg',
     icon: FaBriefcase,
     highlight: '95% Placement'
   },
