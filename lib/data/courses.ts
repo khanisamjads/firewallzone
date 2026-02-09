@@ -128,7 +128,7 @@ export const courses: Course[] = [
     mode: ['offline'],
     duration: '45 Days',
     level: 'advanced',
-    image: '/courses/ccnp-security.png',
+    image: '/courses/ccnp-security-fa.png',
     badge: 'Bestseller',
     curriculum: [
       'Cisco Secure Firewall',
