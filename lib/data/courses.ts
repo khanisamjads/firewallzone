@@ -253,7 +253,7 @@ export const courses: Course[] = [
     mode: ['offline', 'online'],
     duration: '60 Days',
     level: 'advanced',
-    image: '/courses/cyber-security.png',
+    image: '/courses/cyber-security-course-fz.png',
     badge: 'Bestseller',
     curriculum: [
       'Course 1 – Networking Fundamentals',
@@ -652,7 +652,7 @@ export const courses: Course[] = [
     mode: ['offline', 'online'],
     duration: '30 Days',
     level: 'intermediate',
-    image: '/courses/mcse.png',
+    image: '/courses/mcse-cert.png',
     curriculum: [
       'M365 Tenant Management',
       'Identity Synchronization',
