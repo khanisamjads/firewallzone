@@ -49,7 +49,7 @@ const slides = [
   },
   {
     id: 6,
-    title: 'Real Time Devices',
+    title: 'Certifications',
     bgGradient: 'from-stone-900 to-gray-900',
     bgImage: '/gallery/Networking-courses-certificatioins-hyderabad.png',
     icon: FaNetworkWired,
