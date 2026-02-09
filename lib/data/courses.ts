@@ -320,7 +320,7 @@ export const courses: Course[] = [
     mode: ['offline', 'online'],
     duration: '30 Days',
     level: 'intermediate',
-    image: '/courses/palo-alto.png',
+    image: '/courses/Palo-alto-networks-faz.png',
     curriculum: [
       'Palo Alto Firewall Architecture',
       'Initial Configuration',
@@ -379,7 +379,7 @@ export const courses: Course[] = [
     mode: ['offline'],
     duration: '2 weeks',
     level: 'advanced',
-    image: '/courses/fortinet.png',
+    image: '/courses/Fortinet-firewall-fz.png',
     curriculum: [
       'FortiGate Architecture',
       'Initial Setup and Configuration',
@@ -438,7 +438,7 @@ export const courses: Course[] = [
     mode: ['offline'],
     duration: '30 Days',
     level: 'intermediate',
-    image: '/courses/azure-az104.png',
+    image: '/courses/Microsoft-Azure-fz.png',
     curriculum: [
       'Azure Fundamentals',
       'Azure Virtual Machines',
@@ -534,7 +534,7 @@ export const courses: Course[] = [
     mode: ['offline', 'online'],
     duration: '90 Days',
     level: 'advanced',
-    image: '/courses/FULL STACK Development (MERN) Using AI.png',
+    image: '/courses/full-stack-ai.png',
     badge: 'New',
     curriculum: [
       'WEEK 1: Software Engineering Fundamentals – Introduction to IT Industry, SDLC, Agile, Scrum, Git, GitHub, VS Code',
@@ -592,7 +592,7 @@ export const courses: Course[] = [
     mode: ['offline', 'online'],
     duration: '60 Days',
     level: 'advanced',
-    image: '/courses/DATA Analyst.png',
+    image: '/courses/Data-Python-BI.png',
     badge: 'Trending',
     curriculum: [
       'WEEK 1: Basics of Python – Introduction to Python, Variables, Data Types, Input/Output, Conditional & Looping Statements',
