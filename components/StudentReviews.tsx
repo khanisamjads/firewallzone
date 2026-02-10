@@ -6,45 +6,31 @@ import { FaGoogle, FaStar, FaQuoteLeft, FaUserCircle } from 'react-icons/fa';
 const reviews = [
   {
     id: 1,
-    name: 'Khalid Mohammed',
+    name: 'Mohammed Imran',
     rating: 5,
-    text: 'I completed the CCNA course at Firewall Zone, and it was an excellent experience. The explanations were clear, the instructor was knowledgeable, and the hands-on practice was very helpful. I highly recommend FirewallZone to anyone studying CCNA.',
-    time: '1 week ago'
+    text: 'Completed CCNA and CCNP Security training here. Excellent lab facilities with real devices. The trainers are very experienced and helpful. Got placed in a top MNC immediately after course completion.',
+    time: '2 weeks ago'
   },
   {
     id: 2,
-    name: 'Aariz Khan',
+    name: 'Rahul Sharma',
     rating: 5,
-    text: 'I had a great experience completing my CCNP Enterprise training here. The labs were very practical, and the concepts were explained clearly. It has really helped me prepare for my career goals in Riyadh. Highly recommended for any networking aspirant.!',
-    time: '1 week ago'
+    text: 'Best institute for Networking in Hyderabad. I did my Palo Alto and Fortinet firewall training. The way they explain concepts with real-time scenarios is amazing. Highly recommended!',
+    time: '1 month ago'
   },
   {
     id: 3,
-    name: 'Sai',
+    name: 'Asif Khan',
     rating: 5,
-    text: 'My name is pavankalyan. I learned ccna in firewall zone It is easily understand and instructor also good and friendly.',
+    text: 'Firewall Zone changed my career path. I had a gap of 2 years, but their career guidance and placement support helped me get a job as a Network Engineer. 25 years of experience really shows in their teaching.',
     time: '2 months ago'
   },
   {
     id: 4,
-    name: 'shahbaz Khan',
+    name: 'Swathi Reddy',
     rating: 5,
-    text: 'A very good institute for learning and skill development. The trainers explain concepts clearly and focus on practical knowledge. Regular assessments and doubt-clearing sessions really help in improving performance. Overall, it is worth joining for serious learners.',
-    time: 'A Week ago'
-  }
-  {
-    id: 5,
-    name: 'Mohammed Rayaan',
-    rating: 5,
-    text: 'I completed my ccna in firewall zone and classes were excellent. If anybody is interested in networking course please go ahead for this institute blindly.',
-    time: 'A Week ago'
-  }
-{
-    id: 6,
-    name: 'Sayan Kara',
-    rating: 5,
-    text: 'my self sayyan i recently completed the CCNP certification, and it turned out to be a solid step forward in my networking career. The course goes well beyond basic concepts and really pushes you to understand how enterprise networks work in real situations. Topics like routing, switching, troubleshooting, and network design are explained in depth, with a strong focus on practical application.',
-    time: '1 Month ago'
+    text: 'Wonderful learning experience. The "Cyber Security" course covers everything from basics to advanced tools. The lab is open all day for practice. Thank you Firewall Zone team.',
+    time: '3 months ago'
   }
 ];
 
@@ -80,7 +66,7 @@ export default function StudentReviews() {
                  {[...Array(5)].map((_, i) => <FaStar key={i} />)}
                </div>
                <p className="text-gray-600 font-medium text-sm sm:text-base">4.9 / 5.0</p>
-               <p className="text-gray-500 text-xs sm:text-sm mb-3 sm:mb-4">Based on 239+ reviews</p>
+               <p className="text-gray-500 text-xs sm:text-sm mb-3 sm:mb-4">Based on 229+ reviews</p>
                <a 
                  href="https://www.google.com/search?q=firewall+zone+hyderabad+reviews" 
                  target="_blank" 
