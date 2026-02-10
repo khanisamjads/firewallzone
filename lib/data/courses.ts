@@ -6,7 +6,7 @@ export const courses: Course[] = [
     slug: 'ccna-routing-switching',
     title: 'CCNA R&S + Security - OFFLINE',
     shortDescription: 'Master networking fundamentals with Cisco CCNA Routing & Switching plus Security certification.',
-    description: 'Comprehensive CCNA Routing & Switching with Security training that covers network fundamentals, routing protocols, switching technologies, and network security. Get hands-on experience with real Cisco equipment in our state-of-the-art labs.',
+    description: 'Your career in Networking begins with CCNA (Routing & Switching) + Security at Firewall Zone Institute of IT. CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Learn through hands-on labs, real-world deployment scenarios, and tool-specific modules covering IP addressing, routing protocols, VLANs, ACLs, VPNs, and Cisco IOS security features. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
     category: ['CISCO', 'Networking', 'Security'],
     mode: ['offline'],
     duration: '30 Days',
