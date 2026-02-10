@@ -6,24 +6,24 @@ import { FaGoogle, FaStar, FaQuoteLeft, FaUserCircle } from 'react-icons/fa';
 const reviews = [
   {
     id: 1,
-    name: 'Mohammed Imran',
+    name: 'Khalid Mohammed',
     rating: 5,
-    text: 'Completed CCNA and CCNP Security training here. Excellent lab facilities with real devices. The trainers are very experienced and helpful. Got placed in a top MNC immediately after course completion.',
-    time: '2 weeks ago'
+    text: 'I completed the CCNA course at FirewallZone, and it was an excellent experience. The explanations were clear, the instructor was knowledgeable, and the hands-on practice was very helpful. I highly recommend FirewallZone to anyone studying CCNA.',
+    time: '1 week ago'
   },
   {
     id: 2,
-    name: 'Rahul Sharma',
+    name: 'Aariz Khan',
     rating: 5,
-    text: 'Best institute for Networking in Hyderabad. I did my Palo Alto and Fortinet firewall training. The way they explain concepts with real-time scenarios is amazing. Highly recommended!',
-    time: '1 month ago'
+    text: 'I had a great experience completing my CCNP Enterprise training here. The labs were very practical, and the concepts were explained clearly. It has really helped me prepare for my career goals in Riyadh. Highly recommended for any networking aspirant.',
+    time: '1 Week ago'
   },
   {
     id: 3,
-    name: 'Asif Khan',
+    name: 'shahbaz Khan',
     rating: 5,
-    text: 'Firewall Zone changed my career path. I had a gap of 2 years, but their career guidance and placement support helped me get a job as a Network Engineer. 25 years of experience really shows in their teaching.',
-    time: '2 months ago'
+    text: 'A very good institute for learning and skill development. The trainers explain concepts clearly and focus on practical knowledge. Regular assessments and doubt-clearing sessions really help in improving performance. Overall, it is worth joining for serious learners.',
+    time: '1 Week Ago'
   },
   {
     id: 4,
