@@ -73,9 +73,9 @@ export const courses: Course[] = [
     image: '/courses/ccnars-routing-switching-csico.png',
     badge: 'Popular',
     curriculum: [
-      'Network Fundamentals',
-      'Network Access',
-      'IP Connectivity',
+      'Network Technologies: Understanding network technologies LAN & WAN, IPv4 & IPv6 Addressing system, Installing & Configuring and operating & troubleshooting LAN / WAN, Routers & Switches, Configuring different methods of routing static, default, dynamic like OSPF & EIGRP, Implementing security & redundancy in network, Configuring Internet connectivity and managing cisco devices.',
+      'Networks Function: Describe how networks function, identifying major components, function of network components, and the OSI',
+      'Learning:  Learning IPv4 & Advance concepts of IPv4',
       'IP Services',
       'Security Fundamentals',
       'Automation and Programmability',
