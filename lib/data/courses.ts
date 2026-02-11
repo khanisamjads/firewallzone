@@ -73,15 +73,18 @@ export const courses: Course[] = [
     image: '/courses/ccnars-routing-switching-csico.png',
     badge: 'Popular',
     curriculum: [
-      'Network Technologies: Understanding network technologies LAN & WAN, IPv4 & IPv6 Addressing system, Installing & Configuring and operating & troubleshooting LAN / WAN, Routers & Switches, Configuring different methods of routing static, default, dynamic like OSPF & EIGRP, Implementing security & redundancy in network, Configuring Internet connectivity and managing cisco devices.',
-      'Networks Function: Describe how networks function, identifying major components, function of network components, and the OSI',
-      'Learning:  Learning IPv4 & Advance concepts of IPv4',
-      'IP Services',
-      'Security Fundamentals',
-      'Automation and Programmability',
-      'Virtual Lab Access',
-      'Live Interactive Sessions',
-      'Recorded Sessions for Review'
+      '<strong>Network Technologies:</strong> Understanding network technologies LAN & WAN, IPv4 & IPv6 Addressing system, Installing & Configuring and operating & troubleshooting LAN / WAN, Routers & Switches, Configuring different methods of routing static, default, dynamic like OSPF & EIGRP, Implementing security & redundancy in network, Configuring Internet connectivity and managing cisco devices.',
+      '<strong>Networks Function:</strong> Describe how networks function, identifying major components, function of network components, and the OSI',
+      '<strong>Learning:</strong> Learning IPv4 & Advance concepts of IPv4',
+      '<strong>LAN & WAN: </strong>Describe how networks function, identifying major components, function of network components, and the OSI',
+      '<strong>Characteristics: </strong>Define the characteristics, functions, and components of a WAN',
+      '<strong>Configure: </strong>Configure and troubleshoot EIGRP in an IPv4 environment, and configure EIGRP for IPv6',
+      '<strong>OSPF: </strong>Configure, verify, and troubleshoot multi-area OSPF',
+      '<strong>NAT: </strong>Establish Internet connectivity by configuring NAT',
+      '<strong>Configuring: </strong>Configuring VLAN, VTP, STP & Ether Channel'
+      '<strong>Cisco Device: </strong>Managing Cisco device: Administering several devices through'
+      '<strong>Admin PC:</strong> Admin PC, Router Configuration backup, IOS installation & backup, Password recovery.'
+            
     ],
     prerequisites: ['No Prerequisites'],
     certification: 'CCNA (Cisco Certified Network Associate)',
