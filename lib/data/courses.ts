@@ -73,18 +73,17 @@ export const courses: Course[] = [
     image: '/courses/ccnars-routing-switching-csico.png',
     badge: 'Popular',
     curriculum: [
-  '<strong>Network Technologies:</strong> Understanding network technologies LAN & WAN, IPv4 & IPv6 Addressing system, Installing & Configuring and operating & troubleshooting LAN / WAN, Routers & Switches, Configuring different methods of routing static, default, dynamic like OSPF & EIGRP, Implementing security & redundancy in network, Configuring Internet connectivity and managing cisco devices.',
-  '<strong>Networks Function:</strong> Describe how networks function, identifying major components, function of network components, and the OSI',
-  '<strong>Learning:</strong> Learning IPv4 & Advance concepts of IPv4',
-  '<strong>LAN & WAN: </strong>Describe how networks function, identifying major components, function of network components, and the OSI',
-  '<strong>Characteristics: </strong>Define the characteristics, functions, and components of a WAN',
-  '<strong>Configure: </strong>Configure and troubleshoot EIGRP in an IPv4 environment, and configure EIGRP for IPv6',
-  '<strong>OSPF: </strong>Configure, verify, and troubleshoot multi-area OSPF',
-  '<strong>NAT: </strong>Establish Internet connectivity by configuring NAT',
-  '<strong>Configuring: </strong>Configuring VLAN, VTP, STP & Ether Channel',
-  '<strong>Cisco Device: </strong>Managing Cisco device: Administering several devices through',
-  '<strong>Admin PC:</strong> Admin PC, Router Configuration backup, IOS installation & backup, Password recovery.'
-]
+       'Course 1 – Networking Fundamentals',
+      'Course 2 – Cyber Security Basics',
+      'Course 3 – Juniper Security',
+      'Course 4 – Cisco Security',
+      'Course 5 – Security Standards & Compliance',
+      'Course 6 – Security Auditing',
+      'Course 7 – Hacking Techniques & Ethical Hacking',
+      'Course 8 – Endpoint Security',
+      'Course 9 – Network Monitoring & SIEM',
+      'Course 10 – FortiGate Security'
+    ],
     prerequisites: ['No Prerequisites'],
     certification: 'CCNA (Cisco Certified Network Associate)',
     highlights: [
