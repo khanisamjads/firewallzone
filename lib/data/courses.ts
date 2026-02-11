@@ -239,23 +239,29 @@ export const courses: Course[] = [
     slug: 'ccnp-enterprise',
     title: 'CCNP Enterprise (R&S) offline',
     shortDescription: 'Master enterprise networking with advanced routing, switching, and network design.',
-    description: 'Advanced enterprise networking course covering complex routing and switching scenarios, network design, and enterprise solutions. Perfect for those aiming to become senior network engineers.',
+    description: 'CCNP Enterprise (Routing & Switching) Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master enterprise-grade network design, implementation, and optimization. Learn through hands-on labs, real-world configuration scenarios, and tool-specific modules covering OSPF, EIGRP, BGP, VLANs, STP, EtherChannel, and WAN technologies. Build practical skills in Layer 2 and Layer 3 protocols, network automation, and infrastructure troubleshooting to become job-ready for high-demand networking roles.',
     category: ['CISCO', 'Networking', 'Enterprise'],
     mode: ['offline'],
     duration: '45 Days',
     level: 'advanced',
     image: '/courses/ccnp-rs-enterprise-cisco.png',
     curriculum: [
-      'Advanced Routing (OSPF, EIGRP, BGP)',
-      'Enterprise Switching',
-      'Network Design Principles',
-      'SD-WAN Solutions',
-      'Wireless Networking',
-      'Network Automation',
-      'Quality of Service (QoS)',
-      'Multicast Routing',
-      'Troubleshooting Complex Networks'
-    ],
+  // ROUTE v2.0 Objectives
+  'Describe routing protocols, different remote connectivity options & their impact on routing and implement RIPng',
+  'Configure EIGRP in IPv4 and IPv6 environment',
+  'Configure OSPF in IPv4 and IPv6 environment',
+  'Implement route redistribution using filtering mechanisms',
+  'Implement path control using policy based routing and IP SLA',
+  'Implement enterprise Internet connectivity',
+  'Secure Cisco routers according to best practices and configure authentication for routing protocols',
+
+  // ROUTE v2.0 Outline
+  'Install, configure and operate networks',
+  'Cisco routers and switches',
+  'Select and configure scalable IP addresses',
+  'Implement technologies to redistribute and support multiple advanced IP routing protocols',
+  'Design and approve router connectivity across large networks'
+],
     prerequisites: ['CCNA knowledge'],
     certification: 'CCNP Enterprise',
     highlights: [
