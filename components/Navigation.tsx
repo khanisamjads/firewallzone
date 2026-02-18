@@ -39,7 +39,7 @@ export default function Navigation() {
   ];
 
   const microsoftDropdown = [
-    { name: 'Microsoft Azure', href: '/courses/microsoft-azure' },
+    { name: 'Microsoft Azure', href: '/courses/microsoft-azure-training-in-hyderabad-india' },
     { name: 'Microsoft 365', href: '/courses/microsoft-365' },
   ];
 
