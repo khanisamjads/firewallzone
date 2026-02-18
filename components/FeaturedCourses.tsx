@@ -17,7 +17,7 @@ const navCourses = courses.filter(course =>
     'cyber-security',
     'fortinet-firewall',
     'palo-alto',
-    'microsoft-azure',
+    'microsoft-azure-training-in-hyderabad-india',
     'microsoft-365',
     'ai-sde',
     'data-analyst-python-powerbi'
