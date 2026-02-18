@@ -663,7 +663,7 @@ export const courses: Course[] = [
   },
   {
     id: '9',
-    slug: 'microsoft-azure-training-in-hyderabad-india',
+    slug: 'microsoft-azure',
     title: 'Microsoft Azure',
     shortDescription: 'Master cloud computing with Microsoft Azure training covering infrastructure, security, and services.',
     description: 'Microsoft Azure Training Institute in Hyderabad, Telangana: Advance your cloud career with expert-led Azure training at Firewall Zone Institute of IT. Our program follows the official Microsoft Azure curriculum, covering cloud architecture, service deployment, automation workflows, and security best practices. Training includes hands-on labs in real Azure environments, live deployment scenarios, and certification-focused modules to help you become job-ready. Whether you’re a student or IT professional, this course equips you with the skills to build and manage scalable cloud infrastructure.',
