@@ -65,7 +65,7 @@ export const courses: Course[] = [
     id: '2',
     slug: 'ccna-routing-switching-cisco-security-online-training',
     title: 'CCNA R&S + Security Online Training',
-    shortDescription: 'Learn CCNA Routing & Switching with Security from anywhere with our comprehensive online training.',
+    shortDescription: 'Master CCNA Routing & Switching with Security through our Online Training at Firewall Zone Institute of IT. Learn anywhere with live sessions, virtual labs, and expert guidance to prepare for certification.',
     description: 'Complete CCNA training delivered online with live sessions, virtual labs, and remote access to real equipment. Perfect for working professionals and students who need flexible learning schedules.',
     category: ['CISCO', 'Networking', 'Security'],
     mode: ['online'],
