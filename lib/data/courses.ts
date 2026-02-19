@@ -605,8 +605,8 @@ export const courses: Course[] = [
   {
     id: '8',
     slug: 'fortinet-firewall-training-in-hyderabad',
-    title: 'Fortinet Firewall',
-    shortDescription: 'Learn Fortinet FortiGate firewall configuration, security policies, and network protection.',
+    title: 'Fortinet Firewall Training in Hyderabad (Class Room Training)',
+    shortDescription: 'Learn Fortinet FortiGate Firewall configuration and security at Firewall Zone Institute of IT. Gain hands‑on expertise in policies, VPN setup, threat prevention, and advanced network protection strategies.',
     description: 'Comprehensive Fortinet FortiGate training covering firewall setup, security policies, VPN, and advanced threat protection. Hands-on labs with real FortiGate devices.',
     category: ['Security', 'Firewall', 'Fortinet'],
     mode: ['offline'],
@@ -664,8 +664,8 @@ export const courses: Course[] = [
   {
     id: '9',
     slug: 'microsoft-azure-training-in-hyderabad-india',
-    title: 'Microsoft Azure',
-    shortDescription: 'Master cloud computing with Microsoft Azure training covering infrastructure, security, and services.',
+    title: 'Microsoft Azure Training in Hyderabad',
+    shortDescription: 'Master cloud computing with Microsoft Azure Training in Hyderabad at Firewall Zone Institute of IT. Gain expertise in infrastructure, security, and cloud services through hands‑on labs and expert‑led sessions.',
     description: 'Microsoft Azure Training Institute in Hyderabad, Telangana: Advance your cloud career with expert-led Azure training at Firewall Zone Institute of IT. Our program follows the official Microsoft Azure curriculum, covering cloud architecture, service deployment, automation workflows, and security best practices. Training includes hands-on labs in real Azure environments, live deployment scenarios, and certification-focused modules to help you become job-ready. Whether you’re a student or IT professional, this course equips you with the skills to build and manage scalable cloud infrastructure.',
     category: ['Cloud', 'Microsoft', 'Azure'],
     mode: ['offline'],
