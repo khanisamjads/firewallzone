@@ -878,9 +878,9 @@ export const courses: Course[] = [
   {
     id: '19',
     slug: 'mcse-training-in-hyderabad',
-    title: 'Microsoft MCSE 2025',
-    shortDescription: 'Master Microsoft 365 administration and services.',
-    description: 'Comprehensive training on Microsoft 365 services including Exchange Online, SharePoint, Teams, and device management.',
+    title: 'Microsoft MCSE 2025 in Hyderabad - Classroom Training ',
+    shortDescription: 'MCSE Training 2025 in Hyderabad at Firewall Zone Institute of IT is led by certified Microsoft professionals and designed to help you master enterprise-grade Windows Server administration..',
+    description: 'MCSE Training 2025 in Hyderabad at Firewall Zone Institute of IT is led by certified Microsoft professionals and designed to help you master enterprise-grade Windows Server administration, infrastructure management, and cloud integration using Microsoft technologies. Learn through hands-on labs, real-world system scenarios, and tool-specific modules covering Active Directory, Group Policy, DNS, DHCP, Hyper-V, and Microsoft Azure fundamentals. Build practical skills in server deployment, network services, and identity management to become job-ready for high-demand IT roles.',
     category: ['Cloud', 'Microsoft'],
     mode: ['offline', 'online'],
     duration: '30 Days',
