@@ -4,9 +4,9 @@ export const courses: Course[] = [
   {
     id: '1',
     slug: 'ccna-routing-and-switching-training-in-hyderabad-telangana',
-    title: 'CCNA R&S + Security - OFFLINE',
+    title: 'CCNA R&S + Security - in Hyderabad (Classroom Training)',
     shortDescription: 'Your career in Networking begins with CCNA (Routing & Switching) + Security in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master.',
-    description: 'Your career in Networking begins with CCNA (Routing & Switching) + Security at Firewall Zone Institute of IT. CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Learn through hands-on labs, real-world deployment scenarios, and tool-specific modules covering IP addressing, routing protocols, VLANs, ACLs, VPNs, and Cisco IOS security features. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
+    description: 'Your career in Networking begins with CCNA (Routing & Switching) + Security at Firewall Zone Institute of IT. (200-301 exam) CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Learn through hands-on labs, real-world deployment scenarios, and tool-specific modules covering IP addressing, routing protocols, VLANs, ACLs, VPNs, and Cisco IOS security features. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
     category: ['CISCO', 'Networking', 'Security'],
     mode: ['offline'],
     duration: '30 Days',
