@@ -479,8 +479,8 @@ export const courses: Course[] = [
   {
     id: '6',
     slug: 'cyber-security-training-in-hyderabad-telangana',
-    title: 'Build expertise with our Cyber Security Training in Hyderabad & Online Complete Course Package at Firewall Zone Institute of IT. Gain skills across 10 programs covering ethical hacking, network defense, penetration testing, and threat mitigation.',
-    shortDescription: 'Get Comprehensive 10-course cyber security program covering ethical hacking, network defense, and threat mitigation.',
+    title: 'Cyber Security Training in Hyderabad - Complete Course Package - Class Room & Online.',
+    shortDescription: 'Build expertise with our Cyber Security Training in Hyderabad & Online Complete Course Package at Firewall Zone Institute of IT. Gain skills across 10 programs covering ethical hacking, network defense, penetration testing, and threat mitigation.',
     description: 'Advance your career in cybersecurity with our expert-led training. This comprehensive 10-course package covers ethical hacking, network defense, and real-world threat mitigation—designed to get you certified and job-ready in today\'s digital landscape.',
     category: ['Security', 'Cyber Security', 'Ethical Hacking'],
     mode: ['offline', 'online'],
