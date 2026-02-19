@@ -370,8 +370,8 @@ export const courses: Course[] = [
   {
     id: '5',
     slug: 'ccnp-routing-switching-training-online',
-    title: 'CCNP Enterprise (R&S) online',
-    shortDescription: 'Complete CCNP Routing & Switching training delivered online with virtual labs.',
+    title: 'CCNP Enterprise Routing and Switching (Online Training)',
+    shortDescription: 'Complete CCNP Enterprise (Routing & Switching) Online Training at Firewall Zone Institute of IT. Learn advanced routing, switching, and enterprise network design with live sessions and virtual labs.',
     description: 'Firewall Zone offers the Best CCNP Online Training in Hyderabad for Cisco Certified Network Professional (CCNP). This advanced online program is designed for IT professionals who want to master the installation, configuration, and operation of local and wide area networks from anywhere. Our online CCNP training focuses on building the skills necessary to: Deploy scalable enterprise networks, Design and implement campus and global, intranet solutions, Troubleshoot complex networking issues in real time. The CCNP Routing & Switching – Implementing Cisco IP Routing (ROUTE) module prepares participants to manage medium and large business networks by applying advanced and scalable routing solutions. You’ll learn to design and operate LAN–MAN networks with multiple routers, ensuring high performance and reliability. This online training is structured to give you hands‑on experience through virtual labs, live instructor sessions, and recorded modules. By the end of the course, you’ll be fully prepared for the CCNP Route Exam, a key step in the CCNP Routing and Switching certification path.',
     category: ['CISCO', 'Networking', 'Online'],
     mode: ['online'],
