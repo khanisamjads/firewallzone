@@ -261,8 +261,8 @@ export const courses: Course[] = [
   {
     id: '4',
     slug: 'ccnp-routing-switching-training-in-hyderabad-telangana',
-    title: 'CCNP Enterprise (R&S) offline',
-    shortDescription: 'Master enterprise networking with advanced routing, switching, and network design.',
+    title: 'CCNP Enterprise Routing and Switching (Class Room Training)',
+    shortDescription: 'Advance your networking career with CCNP Enterprise (Routing & Switching) Offline Training in Hyderabad at Firewall Zone Institute of IT. Gain hands‑on expertise in advanced routing, switching, and enterprise network design.',
     description: 'CCNP Enterprise (Routing & Switching) Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master enterprise-grade network design, implementation, and optimization. Learn through hands-on labs, real-world configuration scenarios, and tool-specific modules covering OSPF, EIGRP, BGP, VLANs, STP, EtherChannel, and WAN technologies. Build practical skills in Layer 2 and Layer 3 protocols, network automation, and infrastructure troubleshooting to become job-ready for high-demand networking roles.',
     category: ['CISCO', 'Networking', 'Enterprise'],
     mode: ['offline'],
