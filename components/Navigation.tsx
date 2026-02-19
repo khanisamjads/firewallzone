@@ -21,31 +21,31 @@ export default function Navigation() {
   }, []);
 
   const ccnaDropdown = [
-    { name: 'CCNA R&S + Security (Offline)', href: '/courses/ccna-routing-switching' },
-    { name: 'CCNA R&S + Security (Online)', href: '/courses/ccna-routing-switching-online' },
+    { name: 'CCNA R&S + Security (Offline)', href: '/courses/ccna-routing-and-switching-training-in-hyderabad-telangana' },
+    { name: 'CCNA R&S + Security (Online)', href: '/courses/ccna-routing-switching-cisco-security-online-training' },
   ];
 
   const ccnpDropdown = [
     { name: 'CCNP Security', href: '/courses/ccnp-security' },
-    { name: 'CCNP Enterprise (R&S) offline', href: '/courses/ccnp-enterprise' },
-    { name: 'CCNP Enterprise (R&S) online', href: '/courses/ccnp-routing-switching-online' }
+    { name: 'CCNP Enterprise (R&S) offline', href: '/courses/ccnp-routing-switching-training-in-hyderabad-telangana' },
+    { name: 'CCNP Enterprise (R&S) online', href: '/courses/ccnp-routing-switching-training-online' }
   ];
 
   const securityDropdown = [
-    { name: 'Cyber Security', href: '/courses/cyber-security' },
+    { name: 'Cyber Security', href: '/courses/cyber-security-training-in-hyderabad-telangana' },
     { name: 'CCNP Security', href: '/courses/ccnp-security' },
-    { name: 'Fortinet Firewall', href: '/courses/fortinet-firewall' },
-    { name: 'Palo Alto', href: '/courses/palo-alto' },
+    { name: 'Fortinet Firewall', href: '/courses/fortinet-firewall-training-in-hyderabad' },
+    { name: 'Palo Alto', href: '/courses/palo-alto-networks-training-courses-in-hyderabad-telangana' },
   ];
 
   const microsoftDropdown = [
     { name: 'Microsoft Azure', href: '/courses/microsoft-azure-training-in-hyderabad-india' },
-    { name: 'Microsoft 365', href: '/courses/microsoft-365' },
+    { name: 'Microsoft 365', href: '/courses/mcse-training-in-hyderabad' },
   ];
 
   const aiCoursesDropdown = [
-    { name: 'FULL STACK Development (MERN) Using AI', href: '/courses/ai-sde' },
-    { name: 'Data Analyst with Python & Power BI', href: '/courses/data-analyst-python-powerbi' },
+    { name: 'FULL STACK Development (MERN) Using AI', href: '/courses/ai-sde-ai-software-development-engineer-training-in-hyderabad' },
+    { name: 'Data Analyst with Python & Power BI', href: '/courses/data-analyst-with-python-power-bi-training-in-hyderabad' },
   ];
 
   return (
