@@ -9,18 +9,18 @@ import { courses } from '@/lib/data/courses';
 // Select courses that match the navigation dropdowns (show all relevant course cards)
 const navCourses = courses.filter(course =>
   [
-    'ccna-routing-switching',
-    'ccna-routing-switching-online',
+    'ccna-routing-and-switching-training-in-hyderabad-telangana',
+    'ccna-routing-switching-cisco-security-online-training',
     'ccnp-security',
-    'ccnp-enterprise',
-    'ccnp-routing-switching-online',
-    'cyber-security',
-    'fortinet-firewall',
-    'palo-alto',
+    'ccnp-routing-switching-training-in-hyderabad-telangana',
+    'ccnp-routing-switching-training-online',
+    'cyber-security-training-in-hyderabad-telangana',
+    'fortinet-firewall-training-in-hyderabad',
+    'palo-alto-networks-training-courses-in-hyderabad-telangana',
     'microsoft-azure-training-in-hyderabad-india',
-    'microsoft-365',
-    'ai-sde',
-    'data-analyst-python-powerbi'
+    'mcse-training-in-hyderabad',
+    'ai-sde-ai-software-development-engineer-training-in-hyderabad',
+    'data-analyst-with-python-power-bi-training-in-hyderabad'
   ].includes(course.slug)
 );
 

@@ -3,7 +3,7 @@ import { Course } from '../types';
 export const courses: Course[] = [
   {
     id: '1',
-    slug: 'ccna-routing-switching',
+    slug: 'ccna-routing-and-switching-training-in-hyderabad-telangana',
     title: 'CCNA R&S + Security - OFFLINE',
     shortDescription: 'Master networking fundamentals with Cisco CCNA Routing & Switching plus Security certification.',
     description: 'Your career in Networking begins with CCNA (Routing & Switching) + Security at Firewall Zone Institute of IT. CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Learn through hands-on labs, real-world deployment scenarios, and tool-specific modules covering IP addressing, routing protocols, VLANs, ACLs, VPNs, and Cisco IOS security features. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
@@ -63,7 +63,7 @@ export const courses: Course[] = [
   },
   {
     id: '2',
-    slug: 'ccna-routing-switching-online',
+    slug: 'ccna-routing-switching-cisco-security-online-training',
     title: 'CCNA R&S + Security - ONLINE',
     shortDescription: 'Learn CCNA Routing & Switching with Security from anywhere with our comprehensive online training.',
     description: 'Complete CCNA training delivered online with live sessions, virtual labs, and remote access to real equipment. Perfect for working professionals and students who need flexible learning schedules.',
@@ -260,7 +260,7 @@ export const courses: Course[] = [
   },
   {
     id: '4',
-    slug: 'ccnp-enterprise',
+    slug: 'ccnp-routing-switching-training-in-hyderabad-telangana',
     title: 'CCNP Enterprise (R&S) offline',
     shortDescription: 'Master enterprise networking with advanced routing, switching, and network design.',
     description: 'CCNP Enterprise (Routing & Switching) Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master enterprise-grade network design, implementation, and optimization. Learn through hands-on labs, real-world configuration scenarios, and tool-specific modules covering OSPF, EIGRP, BGP, VLANs, STP, EtherChannel, and WAN technologies. Build practical skills in Layer 2 and Layer 3 protocols, network automation, and infrastructure troubleshooting to become job-ready for high-demand networking roles.',
@@ -369,7 +369,7 @@ export const courses: Course[] = [
   },
   {
     id: '5',
-    slug: 'ccnp-routing-switching-online',
+    slug: 'ccnp-routing-switching-training-online',
     title: 'CCNP Enterprise (R&S) online',
     shortDescription: 'Complete CCNP Routing & Switching training delivered online with virtual labs.',
     description: 'Firewall Zone offers the Best CCNP Online Training in Hyderabad for Cisco Certified Network Professional (CCNP). This advanced online program is designed for IT professionals who want to master the installation, configuration, and operation of local and wide area networks from anywhere. Our online CCNP training focuses on building the skills necessary to: Deploy scalable enterprise networks, Design and implement campus and global, intranet solutions, Troubleshoot complex networking issues in real time. The CCNP Routing & Switching – Implementing Cisco IP Routing (ROUTE) module prepares participants to manage medium and large business networks by applying advanced and scalable routing solutions. You’ll learn to design and operate LAN–MAN networks with multiple routers, ensuring high performance and reliability. This online training is structured to give you hands‑on experience through virtual labs, live instructor sessions, and recorded modules. By the end of the course, you’ll be fully prepared for the CCNP Route Exam, a key step in the CCNP Routing and Switching certification path.',
@@ -478,7 +478,7 @@ export const courses: Course[] = [
   },
   {
     id: '6',
-    slug: 'cyber-security',
+    slug: 'cyber-security-training-in-hyderabad-telangana',
     title: 'Cyber Security - Complete Course Package',
     shortDescription: 'Get Comprehensive 10-course cyber security program covering ethical hacking, network defense, and threat mitigation.',
     description: 'Advance your career in cybersecurity with our expert-led training. This comprehensive 10-course package covers ethical hacking, network defense, and real-world threat mitigation—designed to get you certified and job-ready in today\'s digital landscape.',
@@ -545,7 +545,7 @@ export const courses: Course[] = [
   },
   {
     id: '7',
-    slug: 'palo-alto',
+    slug: 'palo-alto-networks-training-courses-in-hyderabad-telangana',
     title: 'Palo Alto Networks Firewall',
     shortDescription: 'Master Palo Alto Networks next-generation firewalls with hands-on training.',
     description: 'Complete Palo Alto Networks training covering firewall configuration, security policies, threat prevention, and advanced features. Get hands-on experience with real Palo Alto equipment.',
@@ -604,7 +604,7 @@ export const courses: Course[] = [
   },
   {
     id: '8',
-    slug: 'fortinet-firewall',
+    slug: 'fortinet-firewall-training-in-hyderabad',
     title: 'Fortinet Firewall',
     shortDescription: 'Learn Fortinet FortiGate firewall configuration, security policies, and network protection.',
     description: 'Comprehensive Fortinet FortiGate training covering firewall setup, security policies, VPN, and advanced threat protection. Hands-on labs with real FortiGate devices.',
@@ -724,7 +724,7 @@ export const courses: Course[] = [
   },
   {
     id: '10',
-    slug: 'devops',
+    slug: 'devops-training-in-hyderabad-india',
     title: 'DevOps',
     shortDescription: 'Learn DevOps practices, tools, and automation for modern software development and deployment.',
     description: 'Comprehensive DevOps training covering CI/CD, containerization, automation, and cloud technologies. Learn industry-standard tools and practices for modern development.',
@@ -759,7 +759,7 @@ export const courses: Course[] = [
   },
   {
     id: '11',
-    slug: 'ai-sde',
+    slug: 'ai-sde-ai-software-development-engineer-training-in-hyderabad',
     title: 'Full Stack Development (MERN) Using AI',
     shortDescription: 'Industry-ready Full Stack Development training with hands-on projects and structured learning.',
     description: 'Our Full Stack Development (MERN) training program is designed to make you industry-ready with hands-on projects, real-world problem-solving, and structured learning. This 3-month program covers software fundamentals, frontend & backend development, JavaScript, AI tools, SQL, Data Structures, and project deployment.',
@@ -817,7 +817,7 @@ export const courses: Course[] = [
   },
   {
     id: '12',
-    slug: 'data-analyst-python-powerbi',
+    slug: 'data-analyst-with-python-power-bi-training-in-hyderabad',
     title: 'Data Analyst with Python & Power BI',
     shortDescription: 'Become a data analyst with Python programming, data visualization, and Power BI expertise.',
     description: 'Complete data analytics training covering Python for data analysis, SQL, data visualization with Power BI, and statistical analysis. Learn to extract insights from data and create compelling dashboards.',
@@ -877,8 +877,8 @@ export const courses: Course[] = [
   },
   {
     id: '19',
-    slug: 'microsoft-365',
-    title: 'Microsoft 365',
+    slug: 'mcse-training-in-hyderabad',
+    title: 'Microsoft MCSE 2025',
     shortDescription: 'Master Microsoft 365 administration and services.',
     description: 'Comprehensive training on Microsoft 365 services including Exchange Online, SharePoint, Teams, and device management.',
     category: ['Cloud', 'Microsoft'],
