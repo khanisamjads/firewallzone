@@ -546,8 +546,8 @@ export const courses: Course[] = [
   {
     id: '7',
     slug: 'palo-alto-networks-training-courses-in-hyderabad-telangana',
-    title: 'Palo Alto Networks Firewall',
-    shortDescription: 'Master Palo Alto Networks next-generation firewalls with hands-on training.',
+    title: 'Palo Alto Networks Firewall Training in Hyderabad & Online Classes',
+    shortDescription: 'Master Palo Alto Networks Training in Hyderabad, next‑generation firewall Technology with hands‑on training at Firewall Zone Institute of IT. Learn advanced security policies, threat prevention, and network protection strategies.',
     description: 'Complete Palo Alto Networks training covering firewall configuration, security policies, threat prevention, and advanced features. Get hands-on experience with real Palo Alto equipment.',
     category: ['Security', 'Firewall', 'Palo Alto'],
     mode: ['offline', 'online'],
