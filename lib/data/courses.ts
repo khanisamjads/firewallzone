@@ -4,8 +4,8 @@ export const courses: Course[] = [
   {
     id: '1',
     slug: 'ccna-routing-and-switching-training-in-hyderabad-telangana',
-    title: 'CCNA R&S + Security - in Hyderabad (Classroom Training)',
-    shortDescription: 'Your career in Networking begins with CCNA (Routing & Switching) + Security in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master.',
+    title: 'CCNA R&S + Security in Hyderabad (Classroom Training)',
+    shortDescription: 'Your career in Networking begins with CCNA (Routing & Switching) + Security in Hyderabad at Firewall Zone Institute of IT is led by experience professionals and designed to help you master.',
     description: 'Your career in Networking begins with CCNA (Routing & Switching) + Security at Firewall Zone Institute of IT. (200-301 exam) CCNA (Routing & Switching) + Security Training in Hyderabad at Firewall Zone Institute of IT is led by Cisco-certified professionals and designed to help you master both enterprise-grade network architecture and foundational security protocols. Learn through hands-on labs, real-world deployment scenarios, and tool-specific modules covering IP addressing, routing protocols, VLANs, ACLs, VPNs, and Cisco IOS security features. Build practical skills in network configuration, traffic control, device hardening, and threat mitigation—making you job-ready for roles in IT infrastructure and cybersecurity.',
     category: ['CISCO', 'Networking', 'Security'],
     mode: ['offline'],
@@ -64,7 +64,7 @@ export const courses: Course[] = [
   {
     id: '2',
     slug: 'ccna-routing-switching-cisco-security-online-training',
-    title: 'CCNA R&S + Security - ONLINE',
+    title: 'CCNA R&S + Security Online Training',
     shortDescription: 'Learn CCNA Routing & Switching with Security from anywhere with our comprehensive online training.',
     description: 'Complete CCNA training delivered online with live sessions, virtual labs, and remote access to real equipment. Perfect for working professionals and students who need flexible learning schedules.',
     category: ['CISCO', 'Networking', 'Security'],
