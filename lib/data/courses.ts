@@ -819,9 +819,8 @@ export const courses: Course[] = [
     id: '12',
     slug: 'data-analyst-with-python-power-bi-training-in-hyderabad',
     title: 'Data Analyst with Python & Power BI',
-    shortDescription: 'Become a skilled Data Analyst with Python & Power BI at Firewall Zone Institute of IT. Learn programming, data visualization, dashboards, and analytics to build industry‑ready expertise in data science.',
-    description: 'Complete Data Analytics Training covering Python for data analysis, SQL, data visualization with Power BI, and statistical analysis. Learn to extract insights from data and create compelling dashboards. Most institutes teach tools in isolation. At Firewall Zone, we’ve designed a career‑focused program that blends Python’s analytical power with Power BI’s visualization strength — giving you the complete toolkit employers demand. High Demand – Data analysts are in global demand across industries. Recognized Certifications – Industry-ready Data Analyst certification validates your expertise. Career-Focused Curriculum – Build job-ready skills from day one
-Industry-Ready Curriculum aligned with the latest analytics & BI trends. Hands-on Projects to build a strong portfolio. Expert Trainers with years of IT & AI experience and Flexible Batches – weekday, weekend, and online options.',
+    shortDescription: 'Become a data analyst with Python programming, data visualization, and Power BI expertise.',
+    description: 'Complete data analytics training covering Python for data analysis, SQL, data visualization with Power BI, and statistical analysis. Learn to extract insights from data and create compelling dashboards.',
     category: ['Data Analytics', 'Python', 'Power BI'],
     mode: ['offline', 'online'],
     duration: '60 Days',
