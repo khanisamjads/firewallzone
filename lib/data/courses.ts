@@ -762,7 +762,7 @@ export const courses: Course[] = [
     slug: 'ai-sde-ai-software-development-engineer-training-in-hyderabad',
     title: 'Full Stack Development (MERN) Using AI - Online & Classroom Training in Hyderabad',
     shortDescription: 'Become industry‑ready with Full Stack Development (MERN) Using AI at Firewall Zone Institute of IT. Gain hands‑on experience through structured learning, real‑world projects, and AI‑powered development skills.',
-    description: 'Our Full Stack Development (MERN) training program is designed to make you industry-ready with hands-on projects, real-world problem-solving, and structured learning. This 3-month program covers software fundamentals, frontend & backend development, JavaScript, AI tools, SQL, Data Structures, and project deployment.',
+    description: 'Our Full Stack Development (MERN) training program is designed to make you industry-ready with hands-on projects, real-world problem-solving, and structured learning. This 3-month program covers software fundamentals, frontend & backend development, JavaScript, AI tools, SQL, Data Structures, and project deployment. Master enterprise-grade AI & software development with AI-SDE Training at Firewall Zone Institute of Technology. Led by certified experts, this hands-on program prepares you for high-demand roles in AI and IT, equipping you to design, develop, and deploy intelligent applications across complex environments. Our AI-SDE (AI Software Development Engineer) training program is designed to make you industry-ready with hands-on projects, real-world problem-solving, and structured learning. This 3-month program covers software fundamentals, frontend & backend development, JavaScript, Python, AI tools, SQL, Data Structures, and project deployment.',
     category: ['AI', 'Software Development', 'Full Stack'],
     mode: ['offline', 'online'],
     duration: '90 Days',
@@ -820,7 +820,8 @@ export const courses: Course[] = [
     slug: 'data-analyst-with-python-power-bi-training-in-hyderabad',
     title: 'Data Analyst with Python & Power BI',
     shortDescription: 'Become a skilled Data Analyst with Python & Power BI at Firewall Zone Institute of IT. Learn programming, data visualization, dashboards, and analytics to build industry‑ready expertise in data science.',
-    description: 'Complete data analytics training covering Python for data analysis, SQL, data visualization with Power BI, and statistical analysis. Learn to extract insights from data and create compelling dashboards.',
+    description: 'Complete Data Analytics Training covering Python for data analysis, SQL, data visualization with Power BI, and statistical analysis. Learn to extract insights from data and create compelling dashboards. Most institutes teach tools in isolation. At Firewall Zone, we’ve designed a career‑focused program that blends Python’s analytical power with Power BI’s visualization strength — giving you the complete toolkit employers demand. High Demand – Data analysts are in global demand across industries. Recognized Certifications – Industry-ready Data Analyst certification validates your expertise. Career-Focused Curriculum – Build job-ready skills from day one
+Industry-Ready Curriculum aligned with the latest analytics & BI trends. Hands-on Projects to build a strong portfolio. Expert Trainers with years of IT & AI experience and Flexible Batches – weekday, weekend, and online options.',
     category: ['Data Analytics', 'Python', 'Power BI'],
     mode: ['offline', 'online'],
     duration: '60 Days',
