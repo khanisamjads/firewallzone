@@ -819,7 +819,7 @@ export const courses: Course[] = [
     id: '12',
     slug: 'data-analyst-with-python-power-bi-training-in-hyderabad',
     title: 'Data Analyst with Python & Power BI',
-    shortDescription: 'Become a data analyst with Python programming, data visualization, and Power BI expertise.',
+    shortDescription: 'Become a skilled Data Analyst with Python & Power BI at Firewall Zone Institute of IT. Learn programming, data visualization, dashboards, and analytics to build industry‑ready expertise in data science.',
     description: 'Complete data analytics training covering Python for data analysis, SQL, data visualization with Power BI, and statistical analysis. Learn to extract insights from data and create compelling dashboards.',
     category: ['Data Analytics', 'Python', 'Power BI'],
     mode: ['offline', 'online'],
