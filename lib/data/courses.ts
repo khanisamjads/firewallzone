@@ -71,7 +71,7 @@ export const courses: Course[] = [
     mode: ['online'],
     duration: '30 Days',
     level: 'beginner',
-    image: '/courses/ccnars-routing-switching-csico.png',
+    image: '/courses/ccnarss.png',
     badge: 'Popular',
     curriculum: [
   'Network Technologies: Understanding network technologies LAN & WAN, IPv4 & IPv6 Addressing system, Installing & Configuring and operating & troubleshooting LAN / WAN, Routers & Switches, Configuring different methods of routing static, default, dynamic like OSPF & EIGRP, Implementing security & redundancy in network, Configuring Internet connectivity and managing cisco devices.',
