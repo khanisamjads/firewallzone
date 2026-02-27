@@ -91,7 +91,7 @@ export default function Navigation() {
                 <div className="absolute inset-y-0 right-0 left-[34%] bg-white rounded-r-md" />
                 <div className="relative flex items-center justify-center">
                   <Image 
-                    src="firewall-zone.png" 
+                    src="/firewall-zone.png" 
                     alt="Firewall Zone" 
                     width={220} 
                     height={48}
