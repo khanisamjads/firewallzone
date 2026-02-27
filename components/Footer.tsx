@@ -7,21 +7,21 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const ciscoLinks = [
-    { name: 'CCNA R&S + Security', href: '/courses/ccna-routing-switching' },
+    { name: 'CCNA R&S + Security', href: '/courses/ccna-routing-and-switching-training-in-hyderabad-telangana' },
     { name: 'CCNP Security', href: '/courses/ccnp-security' },
-    { name: 'CCNP Enterprise (R&S)', href: '/courses/ccnp-enterprise' }
+    { name: 'CCNP Enterprise (R&S)', href: '/courses/ccnp-routing-switching-training-in-hyderabad-telangana' }
   ];
 
   const securityLinks = [
-    { name: 'Cyber Security', href: '/courses/cyber-security' },
-    { name: 'Palo Alto', href: '/courses/palo-alto' },
-    { name: 'Fortinet Firewall', href: '/courses/fortinet-firewall' }
+    { name: 'Cyber Security', href: '/courses/cyber-security-training-in-hyderabad-telangana' },
+    { name: 'Palo Alto', href: '/courses/palo-alto-networks-training-courses-in-hyderabad-telangana' },
+    { name: 'Fortinet Firewall', href: '/courses/fortinet-firewall-training-in-hyderabad' }
   ];
 
   const aiLinks = [
-    { name: 'AI SDE', href: '/courses/ai-sde' },
-    { name: 'Data Analyst (Python & Power BI)', href: '/courses/data-analyst-python-powerbi' },
-    { name: 'Microsoft Azure', href: '/courses/microsoft-azure' }
+    { name: 'AI SDE', href: '/courses/ai-sde-ai-software-development-engineer-training-in-hyderabad' },
+    { name: 'Data Analyst (Python & Power BI)', href: '/courses/data-analyst-with-python-power-bi-training-in-hyderabad' },
+    { name: 'Microsoft Azure', href: '/courses/microsoft-azure-training-in-hyderabad-india' }
   ];
 
   const quickLinks = [
@@ -34,7 +34,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#4d79f6] text-white">
+    <footer className="bg-[#e5e8ef] text-white">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -46,7 +46,7 @@ export default function Footer() {
                 <div className="absolute inset-y-0 right-0 left-[34%] bg-white rounded-r-md" />
                 <div className="relative flex items-center justify-center">
                   <Image 
-                    src="https://www.firewall-zone.com/wp-content/uploads/2025/09/Firewall-zone.png" 
+                    src="/firewall-zone.png" 
                     alt="Firewall Zone" 
                     width={220}
                     height={48}
