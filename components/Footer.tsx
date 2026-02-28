@@ -19,7 +19,7 @@ export default function Footer() {
   ];
 
   const aiLinks = [
-    { name: 'AI SDE', href: '/courses/ai-sde-ai-software-development-engineer-training-in-hyderabad' },
+    { name: 'AI SDE Full Stack Development (MERN) Using AI', href: '/courses/ai-sde-ai-software-development-engineer-training-in-hyderabad' },
     { name: 'Data Analyst (Python & Power BI)', href: '/courses/data-analyst-with-python-power-bi-training-in-hyderabad' },
     { name: 'Microsoft Azure', href: '/courses/microsoft-azure-training-in-hyderabad-india' }
   ];
