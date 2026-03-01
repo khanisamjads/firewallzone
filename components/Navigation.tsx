@@ -103,11 +103,11 @@ export default function Navigation() {
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center gap-6">
-              <Link href="/" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link href="/" className="text-lg text-foreground hover:text-primary transition-colors font-semibold">
                 Home
               </Link>
               
-              <Link href="/about" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link href="/about" className="text-lg text-foreground hover:text-primary transition-colors font-semibold">
                 About Us
               </Link>
 
