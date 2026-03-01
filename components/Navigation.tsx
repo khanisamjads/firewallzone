@@ -52,7 +52,7 @@ export default function Navigation() {
     <>
       {/* Top Bar */}
       <div className="bg-gradient-primary text-white py-2 hidden md:block overflow-hidden">
-        <div className="container mx-auto px-4 flex justify-between items-center text-sm">
+        <div className="container mx-auto px-4 flex justify-between items-center text-base">
           <div className="flex items-center gap-6 flex-shrink-0">
             <a href="tel:040-23530263" className="flex items-center gap-2 hover:text-gray-200">
               <FaPhone className="text-xs" />
@@ -65,7 +65,7 @@ export default function Navigation() {
           </div>
           {/* Scrolling Address Marquee */}
           <div className="overflow-hidden flex-1 ml-4">
-            <div className="animate-marquee whitespace-nowrap text-xs">
+            <div className="animate-marquee whitespace-nowrap text-base">
               25+years of Experience | Highly Equipped Labs with Latest Advanced Equipments | 100+Routers, Switches and Firewalls | Highly Qualified Experienced Faculty &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; {instituteInfo.contact.address}
             </div>
           </div>
