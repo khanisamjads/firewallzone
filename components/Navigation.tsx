@@ -283,110 +283,111 @@ export default function Navigation() {
               </Link>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden text-foreground p-2"
+            {/* Mobile Menu */}
+<AnimatePresence>
+  {isOpen && (
+    <motion.div
+      initial={{ opacity: 0, height: 0 }}
+      animate={{ opacity: 1, height: 'auto' }}
+      exit={{ opacity: 0, height: 0 }}
+      className="lg:hidden bg-black text-white border-t border-gray-700"
+    >
+      <div className="container mx-auto px-4 py-4 space-y-4">
+        <Link href="/" className="block py-2 text-lg font-semibold hover:text-[#e43e32]" onClick={() => setIsOpen(false)}>
+          Home
+        </Link>
+        <Link href="/about" className="block py-2 text-lg font-semibold hover:text-[#e43e32]" onClick={() => setIsOpen(false)}>
+          About Us
+        </Link>
+
+        {/* CCNA Courses */}
+        <div className="space-y-2">
+          <div className="font-semibold text-base text-gray-300">CCNA Courses</div>
+          {ccnaDropdown.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="block py-2 pl-4 text-lg font-medium hover:text-[#e43e32]"
+              onClick={() => setIsOpen(false)}
             >
-              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
-            </button>
-          </div>
+              {item.name}
+            </Link>
+          ))}
         </div>
 
-        {/* Mobile Menu */}
-        <AnimatePresence>
-          {isOpen && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-card border-t border-border"
+        {/* CCNP Courses */}
+        <div className="space-y-2">
+          <div className="font-semibold text-base text-gray-300">CCNP Courses</div>
+          {ccnpDropdown.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="block py-2 pl-4 text-lg font-medium hover:text-[#e43e32]"
+              onClick={() => setIsOpen(false)}
             >
-              <div className="container mx-auto px-4 py-4 space-y-3">
-                <Link href="/" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
-                  Home
-                </Link>
-                <Link href="/about" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
-                  About Us
-                </Link>
-                <div className="space-y-2">
-                  <div className="font-semibold text-sm text-gray-400">CCNA Courses</div>
-                  {ccnaDropdown.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block py-2 pl-4 text-foreground hover:text-primary"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-                <div className="space-y-2">
-                  <div className="font-semibold text-sm text-gray-400">CCNP Courses</div>
-                  {ccnpDropdown.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block py-2 pl-4 text-foreground hover:text-primary"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-                <div className="space-y-2">
-                  <div className="font-semibold text-sm text-gray-400">Security Courses</div>
-                  {securityDropdown.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block py-2 pl-4 text-foreground hover:text-primary"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-                <div className="space-y-2">
-                  <div className="font-semibold text-sm text-gray-400 flex items-center gap-2">
-                    AI Courses <span className="bg-green-500 text-white text-[10px] px-1.5 py-0.5 rounded-full">NEW</span>
-                  </div>
-                  {aiCoursesDropdown.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block py-2 pl-4 text-foreground hover:text-primary"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-                <div className="space-y-2">
-                  <div className="font-semibold text-sm text-gray-400">Microsoft</div>
-                  {microsoftDropdown.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block py-2 pl-4 text-foreground hover:text-primary"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-                <Link href="/blog" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
-                  Blog
-                </Link>
-                <Link href="/contact" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
-                  Contact Us
-                </Link>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </motion.nav>
-    </>
-  );
+              {item.name}
+            </Link>
+          ))}
+        </div>
+
+        {/* Security Courses */}
+        <div className="space-y-2">
+          <div className="font-semibold text-base text-gray-300">Security Courses</div>
+          {securityDropdown.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="block py-2 pl-4 text-lg font-medium hover:text-[#e43e32]"
+              onClick={() => setIsOpen(false)}
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
+
+        {/* AI Courses */}
+        <div className="space-y-2">
+          <div className="font-semibold text-base text-gray-300 flex items-center gap-2">
+            AI Courses <span className="bg-green-500 text-white text-[10px] px-1.5 py-0.5 rounded-full">NEW</span>
+          </div>
+          {aiCoursesDropdown.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="block py-2 pl-4 text-lg font-medium hover:text-[#e43e32]"
+              onClick={() => setIsOpen(false)}
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
+
+        {/* Microsoft */}
+        <div className="space-y-2">
+          <div className="font-semibold text-base text-gray-300">Microsoft</div>
+          {microsoftDropdown.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="block py-2 pl-4 text-lg font-medium hover:text-[#e43e32]"
+              onClick={() => setIsOpen(false)}
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
+
+        <Link href="/blog" className="block py-2 text-lg font-semibold hover:text-[#e43e32]" onClick={() => setIsOpen(false)}>
+          Blog
+        </Link>
+        <Link href="/contact" className="block py-2 text-lg font-semibold hover:text-[#e43e32]" onClick={() => setIsOpen(false)}>
+          Contact Us
+        </Link>
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
+</motion.nav>
+</>
+);
 }
