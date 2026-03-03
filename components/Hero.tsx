@@ -19,9 +19,9 @@ const slides = [
     id: 2,
     title: 'Expert Faculty',
     bgGradient: 'from-slate-900 to-zinc-900',
-    bgImage: '/gallery/Slide 31.jpg',
+    bgImage: '/gallery/cyber-security-course-hyderabad.png',
     icon: FaGraduationCap,
-    highlight: 'CCIE Trainers'
+    highlight: 'Cyber Security Training'
   },
   {
     id: 3,
@@ -49,11 +49,11 @@ const slides = [
   },
   {
     id: 6,
-    title: 'Certifications',
+    title: 'Full Stack Development (MERN) Using AI',
     bgGradient: 'from-stone-900 to-gray-900',
-    bgImage: '/gallery/Networking-courses-certificatioins-hyderabad.png',
+    bgImage: '/gallery/ai-sde.png',
     icon: FaNetworkWired,
-    highlight: 'Hybrid Learning'
+    highlight: 'AI Tools Integration'
   },
   {
     id: 7,
