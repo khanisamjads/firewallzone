@@ -117,8 +117,8 @@ export default function Navigation() {
                 onMouseEnter={() => setActiveDropdown('ccna')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
-                  CCNA <FaChevronDown className="text-xs" />
+                <button className="flex items-center gap-1 text-lg text-foreground hover:text-primary transition-colors font-semibold">
+                  CCNA <FaChevronDown className="text-base" />
                 </button>
                 <AnimatePresence>
                   {activeDropdown === 'ccna' && (
@@ -148,8 +148,8 @@ export default function Navigation() {
                 onMouseEnter={() => setActiveDropdown('ccnp')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
-                  CCNP <FaChevronDown className="text-xs" />
+                <button className="flex items-center gap-1 text-lg text-foreground hover:text-primary transition-colors font-semibold">
+                  CCNP <FaChevronDown className="text-base" />
                 </button>
                 <AnimatePresence>
                   {activeDropdown === 'ccnp' && (
@@ -179,8 +179,8 @@ export default function Navigation() {
                 onMouseEnter={() => setActiveDropdown('security')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
-                  Security <FaChevronDown className="text-xs" />
+                <button className="flex items-center gap-1 text-lg text-foreground hover:text-primary transition-colors font-semibold">
+                  Security <FaChevronDown className="text-base" />
                 </button>
                 <AnimatePresence>
                   {activeDropdown === 'security' && (
@@ -210,7 +210,7 @@ export default function Navigation() {
                 onMouseEnter={() => setActiveDropdown('ai')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
+                <button className="flex items-center gap-1 text-lg text-foreground hover:text-primary transition-colors font-semibold">
                   <span className="relative">
                     AI Courses
                     <span className="absolute -top-3 -right-8 bg-green-500 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold animate-pulse">
@@ -247,8 +247,8 @@ export default function Navigation() {
                 onMouseEnter={() => setActiveDropdown('microsoft')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium">
-                  Microsoft <FaChevronDown className="text-xs" />
+                <button className="flex items-center gap-1 text-lg text-foreground hover:text-primary transition-colors font-semibold">
+                  Microsoft <FaChevronDown className="text-base" />
                 </button>
                 <AnimatePresence>
                   {activeDropdown === 'microsoft' && (
@@ -273,12 +273,12 @@ export default function Navigation() {
               </div>
 
               {/* Blog */}
-              <Link href="/blog" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link href="/blog" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
                 Blog
               </Link>
 
               {/* Contact Us */}
-              <Link href="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link href="/contact" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
                 Contact Us
               </Link>
             </div>
