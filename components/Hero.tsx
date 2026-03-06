@@ -25,7 +25,7 @@ const slides = [
   },
   {
     id: 3,
-    title: 'Career Transformation',
+    title: 'Networking Career Transformation',
     bgGradient: 'from-zinc-900 to-neutral-900',
     bgImage: '/gallery/Slide 2.jpg',
     icon: FaBriefcase,
