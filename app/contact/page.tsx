@@ -25,18 +25,34 @@ export default function ContactPage() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', phone: '', course: '', message: '' });
-      
-      setTimeout(() => setSubmitStatus('idle'), 5000);
-    }, 1500);
-  };
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  try {
+    const res = await fetch("/api/enquiry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+    console.log("Form response:", data);
+
+    if (data.success) {
+      setSubmitStatus("success");
+      setFormData({ name: "", email: "", phone: "", course: "", message: "" });
+      setTimeout(() => setSubmitStatus("idle"), 5000);
+    } else {
+      setSubmitStatus("error");
+      alert("Error: " + data.error);
+    }
+  } catch (err) {
+    console.error("Form submit error:", err);
+    setSubmitStatus("error");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   return (
     <main className="min-h-screen bg-background">
