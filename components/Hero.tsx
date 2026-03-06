@@ -17,7 +17,7 @@ const slides = [
   },
   {
     id: 2,
-    title: 'Expert Faculty',
+    title: 'Cyber Security Course Online & Class Room Training',
     bgGradient: 'from-slate-900 to-zinc-900',
     bgImage: '/gallery/cyber-security-course-hyderabad.png',
     icon: FaGraduationCap,
@@ -41,7 +41,7 @@ const slides = [
   },
   {
     id: 5,
-    title: 'Flexible Learning',
+    title: 'CISCO CCNA and CCNP Course',
     bgGradient: 'from-stone-900 to-gray-900',
     bgImage: '/gallery/Slide 4.jpg',
     icon: FaNetworkWired,
@@ -57,7 +57,7 @@ const slides = [
   },
   {
     id: 7,
-    title: 'Real Time Devices',
+    title: 'Learn CCNA on Real Time Devices',
     bgGradient: 'from-stone-900 to-gray-900',
     bgImage: '/gallery/real-time-devices-fz.png',
     icon: FaNetworkWired,
