@@ -91,10 +91,10 @@ export default function Navigation() {
                 <div className="absolute inset-y-0 right-0 left-[34%] bg-white rounded-r-md" />
               <div className="relative flex items-center justify-center space-x-3">
                 <Image 
-                  src="/firewall-zone-hyd.png" 
+                  src="/fz-logo-2026.png" 
                   alt="Firewall Zone" 
-                  width={220} 
-                  height={48}
+                  width={800} 
+                  height={140}
                   className="object-contain block"
                 />
                 <span className="text-xl font-semibold text-gray-800">
