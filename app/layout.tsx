@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Firewall Zone Institute of IT and its one of the Best Networking, Cyber Security & AI Training in Hyderabad",
   description: "Premier IT training institute offering CSICO CCNA, CCNP, Cyber Security, Palo Alto, Fortinet, Azure, AI & Data Science courses. 25+ years of excellence with 100% placement assistance.",
   keywords: "CCNA training Hyderabad, CCNP Enterprise (R&S), CCNP Security, Cyber Security course, Palo Alto firewall, Fortinet training, Azure cloud, AI SDE course, Data Analyst training, Best IT institute Hyderabad",
+  icons: {
+    icon: "/favicon.ico", // ✅ This is the favicon line
+  },
 };
 
 export default function RootLayout({
