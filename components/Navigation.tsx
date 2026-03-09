@@ -97,9 +97,7 @@ export default function Navigation() {
                   height={140}
                   className="object-contain block"
                 />
-                <span className="text-xl font-semibold text-gray-800">
-                  Firewall Zone Institute
-                </span>
+               </div>
               </div>
             </Link>
 
