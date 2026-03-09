@@ -81,7 +81,7 @@ export default function Navigation() {
         }`}
       >
         <div className="container mx-auto px-4">
-  <div className="flex items-center justify-between h-20">
+  <div className="flex items-center justify-between h-40">
     {/* Logo */}
     <Link href="/" className="flex items-center gap-3">
       <div className="relative rounded-md p-1.5 shadow-sm border border-white/5 overflow-hidden" style={{width: 800}}>
