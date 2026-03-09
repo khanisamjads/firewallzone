@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description: "Premier IT training institute offering CSICO CCNA, CCNP, Cyber Security, Palo Alto, Fortinet, Azure, AI & Data Science courses. 25+ years of excellence with 100% placement assistance.",
   keywords: "CCNA training Hyderabad, CCNP Enterprise (R&S), CCNP Security, Cyber Security course, Palo Alto firewall, Fortinet training, Azure cloud, AI SDE course, Data Analyst training, Best IT institute Hyderabad",
   icons: {
-    icon: "/fav.ico", // ✅ This is the favicon line
+    icon: "/favicon.ico", // ✅ This is the favicon line
   },
 };
 
