@@ -27,7 +27,6 @@ export const courses: Course[] = [
   'Admin PC: Admin PC, Router Configuration backup, IOS installation & backup, Password recovery.'
 ],
     prerequisites: ['No Prerequisites'],
-    extraNotes: 'for CCNA Training in Hyderabad, India beginner-friendly and covers networking fundamentals, routing, switching, and hands-on Cisco practice.',
     certification: 'CCNA (Cisco Certified Network Associate)',
     highlights: [
       '100% Hands-on Training',
