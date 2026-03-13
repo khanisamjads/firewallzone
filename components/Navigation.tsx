@@ -376,11 +376,15 @@ export default function Navigation() {
                     </Link>
                   ))}
                 </div>
-                <Link href="https://courses.firewall-zone.com/blog-firewall/" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+                <a
+                  href="https://courses.firewall-zone.com/blog-firewall/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="block py-2 text-foreground hover:text-primary"
+                  onClick={() => setIsOpen(false)}
+                >
                   Blog
-                </Link>
+                </a>
                 <Link href="/contact" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
                   Contact Us
                 </Link>
