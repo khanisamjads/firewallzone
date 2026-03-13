@@ -273,9 +273,15 @@ export default function Navigation() {
               </div>
 
               {/* Blog */}
-              <Link href="/blog" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
-               Blog
-              </Link>
+              <a
+                  href="https://courses.firewall-zone.com/blog-firewall/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block py-2 text-foreground hover:text-primary"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Blog
+                </a>
 
               {/* Contact Us */}
               <Link href="/contact" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
