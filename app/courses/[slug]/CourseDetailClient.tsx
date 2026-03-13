@@ -120,7 +120,9 @@ export default function CourseDetailClient({ course, relatedCourses, instituteIn
               {/* CTA Buttons with Phone Numbers */}
               <div className="flex flex-wrap gap-4 pt-4">
                 <Link
-                  href="/contact"
+                  href="https://courses.firewall-zone.com/contact-us"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-8 py-4 bg-gradient-primary text-white rounded-lg font-semibold flex items-center gap-2 hover:opacity-90 transition-all"
                 >
                   Enroll Now
