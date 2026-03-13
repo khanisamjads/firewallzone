@@ -273,7 +273,9 @@ export default function Navigation() {
               </div>
 
               {/* Blog */}
-              <Link href="/blog" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
+              <Link href="https://courses.firewall-zone.com/blog-firewall/" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
+                target="_blank"
+                rel="noopener noreferrer"
                 Blog
               </Link>
 
