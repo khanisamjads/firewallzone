@@ -81,30 +81,25 @@ export default function Navigation() {
         }`}
       >
         <div className="container mx-auto px-4">
-  <div className="flex items-center justify-between h-40">
-    {/* Logo */}
-    <Link href="/" className="flex items-center gap-3">
-      <div className="relative rounded-md p-1.5 shadow-sm border border-white/5 overflow-hidden" style={{width: 800}}>
-        {/* Left 34% background */}
-        <div className="absolute inset-y-0 left-0 w-[34%] rounded-l-md bg-card" />
-        {/* Right 66% background */}
-        <div className="absolute inset-y-0 right-0 left-[34%] bg-white rounded-r-md" />
-        <div className="relative flex items-center justify-center space-x-3">
-          <Image 
-            src="/fz-logo-2026.png" 
-            alt="Firewall Zone" 
-            width={800} 
-            height={140}
-            className="object-contain block"
-          />
-          <span className="text-2xl font-bold text-gray-800">
-            Firewall Zone Institute
-          </span>
-        </div>
-      </div>
-    </Link>
-  </div>
-</div>
+          <div className="flex items-center justify-between h-20">
+            {/* Logo */}
+            <Link href="/" className="flex items-center gap-3">
+              <div className="relative rounded-md p-1.5 shadow-sm border border-white/5 overflow-hidden" style={{width: 220}}>
+                {/* Left 34% background */}
+                <div className="absolute inset-y-0 left-0 w-[34%] rounded-l-md bg-card" />
+                {/* Right 66% background */}
+                <div className="absolute inset-y-0 right-0 left-[34%] bg-white rounded-r-md" />
+                <div className="relative flex items-center justify-center">
+                  <Image 
+                    src="/firewall-zone.png" 
+                    alt="Firewall Zone" 
+                    width={220} 
+                    height={48}
+                    className="object-contain block"
+                  />
+                </div>
+              </div>
+            </Link>
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center gap-6">
