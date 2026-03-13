@@ -55,7 +55,7 @@ export default function Navigation() {
         <div className="container mx-auto px-4 flex justify-between items-center text-base">
           <div className="flex items-center gap-6 flex-shrink-0">
             <a href="tel:040-23530263" className="flex items-center gap-2 hover:text-gray-200">
-              <FaPhone className="text-xs" />
+              <FaPhone className="text-lg" />
               +91 888 6192132
             </a>
             <a href={`mailto:${instituteInfo.contact.email}`} className="flex items-center gap-2 hover:text-gray-200">
