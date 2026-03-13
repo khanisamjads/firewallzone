@@ -378,7 +378,9 @@ export default function Navigation() {
                     </Link>
                   ))}
                 </div>
-                <Link href="/blog" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+                <Link href="https://courses.firewall-zone.com/blog-firewall/" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+                  target="_blank"
+                  rel="noopener noreferrer"
                   Blog
                 </Link>
                 <Link href="/contact" className="block py-2 text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
