@@ -284,12 +284,15 @@ export default function Navigation() {
                 </a>
 
               {/* Contact Us */}
-              <Link href="https://courses.firewall-zone.com/contact-us" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
-              target="_blank"
-              rel="noopener noreferrer"
-                Contact Us
-              </Link>
-            </div>
+              <a
+                  href="https://courses.firewall-zone.com/blog-firewall/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block py-2 text-foreground hover:text-primary"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Contact Us
+                </a>
 
             {/* Mobile Menu Button */}
             <button
