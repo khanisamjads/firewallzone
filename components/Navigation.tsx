@@ -284,7 +284,9 @@ export default function Navigation() {
                 </a>
 
               {/* Contact Us */}
-              <Link href="/contact" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
+              <Link href="https://courses.firewall-zone.com/contact-us" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
+              target="_blank"
+              rel="noopener noreferrer"
                 Contact Us
               </Link>
             </div>
