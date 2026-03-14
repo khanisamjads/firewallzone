@@ -51,26 +51,18 @@ export default function Navigation() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-[#e43e32] text-white py-2 hidden md:block overflow-hidden">
-  <div className="container mx-auto px-4 flex justify-between items-center text-lg font-semibold">
-    <div className="flex items-center gap-6 flex-shrink-0">
-      <a 
-        href="tel:+918886192132" 
-        className="flex items-center gap-2 hover:text-gray-200"
-      >
-        <FaPhone className="text-2xl" />
-        +91 888 6192132
-      </a>
-      <a 
-        href="mailto:info@firewall-zone.com" 
-        className="flex items-center gap-2 hover:text-gray-200"
-      >
-        <FaEnvelope className="text-2xl" />
-        info@firewall-zone.com
-      </a>
-    </div>
-  </div>
-</div>
+            <div className="bg-[#e43e32] text-white py-2 hidden md:block overflow-hidden">
+        <div className="container mx-auto px-4 flex justify-between items-center text-base">
+          <div className="flex items-center gap-6 flex-shrink-0">
+            <a href="tel:040-23530263" className="flex items-center gap-2 hover:text-gray-200">
+              <FaPhone className="text-2xl" />
+              +91 888 6192132
+            </a>
+            <a href={`mailto:${instituteInfo.contact.email}`} className="flex items-center gap-2 hover:text-gray-200">
+              <FaEnvelope className="text-xs" />
+              {instituteInfo.contact.email}
+            </a>
+          </div>
           {/* Scrolling Address Marquee */}
           <div className="overflow-hidden flex-1 ml-4">
             <div className="animate-marquee whitespace-nowrap text-base">
