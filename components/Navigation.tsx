@@ -284,14 +284,10 @@ export default function Navigation() {
                 </a>
 
               {/* Contact Us */}
-              <a
-  href="https://courses.firewall-zone.com/contact-us"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-foreground text-lg hover:text-primary transition-colors font-semibold"
->
-  Contact Us
-</a>
+              <Link href="/contact" className="text-foreground text-lg hover:text-primary transition-colors font-semibold">
+                Contact Us
+              </Link>
+            </div>
 
             {/* Mobile Menu Button */}
             <button
